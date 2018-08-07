@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="977ad983-63fd-45a2-83ad-96d2aa170615" name="Default" comment="">
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page.py" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_create.py" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/addguidepage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/applistpage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/editinfopage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/homepage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/loginpage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/moresettingpage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/mypage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/navigationpage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/paymentpage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/sharepage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/shrinkpage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/page_element/taskmanagepage.yaml" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/page/template_page" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/test_result2/logs/readme.txt" afterDir="false" />
+      <change afterPath="E:/AutoTest/AutoTest/FunctionTest/test_result2/screenshot/readme.txt" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/HTMLTestRunner.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/HTMLTestRunner.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/appium_server_check.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/appium_server_check.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/check_and_install_apk.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/check_and_install_apk.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/clean_workspace.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/clean_workspace.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/compression.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/compression.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/func_lib.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/func_lib.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/log_analyse.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/log_analyse.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/func_script/send_email.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/func_script/send_email.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/main.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/main.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/test_case/SKZS_daily_review.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/test_case/SKZS_daily_review.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/test_case/SKZS_daily_review_adding.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/test_case/SKZS_daily_review_adding.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/test_data/logs/readme.txt" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/test_data/logs/readme.txt" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/test_result/anr_log/readme.txt" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/test_result1/anr_log/readme.txt" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/test_result/crash_log/readme.txt" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/test_result1/crash_log/readme.txt" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/test_result/error_img/readme.txt" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/test_result1/error_img/readme.txt" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/FunctionTest/test_result/report/readme.txt" beforeDir="false" afterPath="E:/AutoTest/AutoTest/FunctionTest/test_result1/report/readme.txt" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/GUI_APP/tkinter_app/android_tool.py" beforeDir="false" afterPath="E:/AutoTest/AutoTest/GUI_APP/tkinter_app/android_tool.py" afterDir="false" />
+      <change beforePath="E:/AutoTest/AutoTest/README.md" beforeDir="false" afterPath="E:/AutoTest/AutoTest/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TestNew$tobemail.coverage" NAME="tobemail Coverage Results" MODIFIED="1532075805821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TobPro" />
+    <SUITE FILE_PATH="coverage/TestNew$clean_workspace.coverage" NAME="clean_workspace Coverage Results" MODIFIED="1529479460310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/AutoTest/AutoTest/FunctionTest/func_script" />
+    <SUITE FILE_PATH="coverage/TestNew$line.coverage" NAME="line Coverage Results" MODIFIED="1532519041280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appium_demo/bin/com/ruby" />
+    <SUITE FILE_PATH="coverage/TestNew$exer001.coverage" NAME="exer001 Coverage Results" MODIFIED="1532599346120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ExercisePro" />
+    <SUITE FILE_PATH="coverage/TestNew$downloadapk.coverage" NAME="downloadapk Coverage Results" MODIFIED="1532914643189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ExercisePro" />
+    <SUITE FILE_PATH="coverage/TestNew$get_appInfo.coverage" NAME="get_appInfo Coverage Results" MODIFIED="1532159408398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TobPro" />
+    <SUITE FILE_PATH="coverage/TestNew$check_and_install_apk.coverage" NAME="check_and_install_apk Coverage Results" MODIFIED="1529477280347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/AutoTest/AutoTest/FunctionTest/func_script" />
+    <SUITE FILE_PATH="coverage/TestNew$threadtest01.coverage" NAME="threadtest01 Coverage Results" MODIFIED="1529462111029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ExercisePro" />
+    <SUITE FILE_PATH="coverage/TestNew$starttime.coverage" NAME="starttime Coverage Results" MODIFIED="1531742486629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestNew$maintest__1_.coverage" NAME="maintest (1) Coverage Results" MODIFIED="1533377746998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TobTest" />
+    <SUITE FILE_PATH="coverage/TestNew$appium_server_check.coverage" NAME="appium_server_check Coverage Results" MODIFIED="1528993890013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/AutoTest/AutoTest/FunctionTest/func_script" />
+    <SUITE FILE_PATH="coverage/TestNew$fasttimetest.coverage" NAME="fasttimetest Coverage Results" MODIFIED="1531740909140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestNew$starttime__1_.coverage" NAME="starttime (1) Coverage Results" MODIFIED="1531743165228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ExercisePro" />
+    <SUITE FILE_PATH="coverage/TestNew$dex.coverage" NAME="dex Coverage Results" MODIFIED="1532328172866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appium_demo/bin/com/ruby" />
+    <SUITE FILE_PATH="coverage/TestNew$exp1.coverage" NAME="exp1 Coverage Results" MODIFIED="1533527491581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appiumtest" />
+    <SUITE FILE_PATH="coverage/TestNew$main.coverage" NAME="main Coverage Results" MODIFIED="1530947367509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/AutoTest/AutoTest/FunctionTest" />
+    <SUITE FILE_PATH="coverage/TestNew$maintest.coverage" NAME="maintest Coverage Results" MODIFIED="1532504522061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TobPro" />
+    <SUITE FILE_PATH="coverage/TestNew$send_email.coverage" NAME="send_email Coverage Results" MODIFIED="1529469776539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/AutoTest/AutoTest/FunctionTest/func_script" />
+    <SUITE FILE_PATH="coverage/TestNew$testMem.coverage" NAME="testMem Coverage Results" MODIFIED="1530962305252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestNew$compare_img.coverage" NAME="compare_img Coverage Results" MODIFIED="1532441400663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appium_demo/bin/com/ruby" />
+    <SUITE FILE_PATH="coverage/TestNew$shili2.coverage" NAME="shili2 Coverage Results" MODIFIED="1532513295307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appium_demo/bin/com/ruby" />
+    <SUITE FILE_PATH="coverage/TestNew$app_info.coverage" NAME="app_info Coverage Results" MODIFIED="1532947916683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestNew$url.coverage" NAME="url Coverage Results" MODIFIED="1532585696010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appium_demo/bin/com/ruby" />
+    <SUITE FILE_PATH="coverage/TestNew$111.coverage" NAME="111 Coverage Results" MODIFIED="1532395900385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appium_demo/bin/com/ruby" />
+    <SUITE FILE_PATH="coverage/TestNew$email.coverage" NAME="email Coverage Results" MODIFIED="1532075743465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TobPro" />
+    <SUITE FILE_PATH="coverage/TestNew$startn.coverage" NAME="startn Coverage Results" MODIFIED="1529979317635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TestNew$test_run.coverage" NAME="test_run Coverage Results" MODIFIED="1528993937431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/AutoTest/AutoTest/FunctionTest" />
+    <SUITE FILE_PATH="coverage/TestNew$download.coverage" NAME="download Coverage Results" MODIFIED="1533088042966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appium_demo/bin/com/ruby" />
+    <SUITE FILE_PATH="coverage/TestNew$starttime_1_.coverage" NAME="starttime(1) Coverage Results" MODIFIED="1532009996353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/ExercisePro" />
+    <SUITE FILE_PATH="coverage/TestNew$mysqltest.coverage" NAME="mysqltest Coverage Results" MODIFIED="1529460076149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TestProjects" />
+    <SUITE FILE_PATH="coverage/TestNew$ttss.coverage" NAME="ttss Coverage Results" MODIFIED="1529059077724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/AutoTest/AutoTest/FunctionTest" />
+    <SUITE FILE_PATH="coverage/TestNew$handle_judge.coverage" NAME="handle_judge Coverage Results" MODIFIED="1532502367962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TobPro" />
+    <SUITE FILE_PATH="coverage/TestNew$Unittests_in_testTouch_py.coverage" NAME="Unittests in testTouch.py Coverage Results" MODIFIED="1531902830289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/appiumtest" />
+    <SUITE FILE_PATH="coverage/TestNew$learnnotes.coverage" NAME="learnnotes Coverage Results" MODIFIED="1532688690232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/TestProjects" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test1: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test1: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="students: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="shili2.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/appium_demo/bin/com/ruby/shili2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2688">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4494">
+              <caret line="214" selection-start-line="214" selection-end-line="214" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maintest.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/TobTest/maintest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test001.py" pinned="false" current-in-tab="true">
+        <entry file="file://E:/testAir/test001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exer001.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/ExercisePro/exer001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="e#136#345#0" />
+                <element signature="e#379#897#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/appiumtest/11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="22.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/appiumtest/22.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exp1.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/appiumtest/exp1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send_email.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/AutoTest/AutoTest/FunctionTest/func_script/send_email.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1848">
+              <caret line="101" column="4" selection-start-line="100" selection-end-line="104" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://E:/AutoTest/AutoTest/FunctionTest/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>关闭</find>
+      <find>url</find>
+      <find>dex</find>
+      <find>:\\</find>
+      <find>D:</find>
+      <find>:\\用户</find>
+      <find>appium_demo</find>
+      <find>fs</find>
+      <find>fn</find>
+      <find>testDevice</find>
+      <find>fileName</find>
+      <find>self.txtPath</find>
+      <find>ti\(\)</find>
+      <find>pd</find>
+      <find>l</find>
+      <find>&quot;E:\\ec\\img\\</find>
+      <find>pkgName</find>
+      <find>apk_url</find>
+      <find>pname</find>
+      <find>faem.img</find>
+      <find>安装失败</find>
+      <find>appy</find>
+      <find>txtPath</find>
+      <find>fns</find>
+      <find>wenj</find>
+      <find>desired_cups</find>
+      <find>one.txt</find>
+      <find>os.remove</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>fail_up_apk</replace>
+      <replace>failed_up_path</replace>
+      <replace>test_device</replace>
+      <replace>file_name</replace>
+      <replace>self.txtPath</replace>
+      <replace>txtPath</replace>
+      <replace>pre_time()</replace>
+      <replace>path + &quot;</replace>
+      <replace>pkgname</replace>
+      <replace>obb_url</replace>
+      <replace>app_name</replace>
+      <replace>img_email</replace>
+      <replace>lastfile.txt</replace>
+      <replace>link_files_path</replace>
+      <replace>fup</replace>
+      <replace>apk_path</replace>
+      <replace>desired_caps</replace>
+      <replace>backup.txt</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\appium_demo</dir>
+      <dir>E:\appium_demo\bin</dir>
+      <dir>E:\ExercisePro</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="E:/AutoTest/AutoTest" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="E:/ExercisePro/threadtest01.py" />
+        <option value="E:/AutoTest/AutoTest/FunctionTest/test_case/SKZS_daily_review.py" />
+        <option value="$PROJECT_DIR$/fasttimetest.py" />
+        <option value="E:/AutoTest/AutoTest/FunctionTest/func_script/clean_workspace.py" />
+        <option value="E:/AutoTest/AutoTest/FunctionTest/func_script/func_lib.py" />
+        <option value="E:/AutoTest/AutoTest/FunctionTest/func_script/log_analyse.py" />
+        <option value="E:/AutoTest/AutoTest/FunctionTest/page/page_create.py" />
+        <option value="E:/AutoTest/AutoTest/FunctionTest/main.py" />
+        <option value="E:/AutoTest/AutoTest/FunctionTest/func_script/send_email.py" />
+        <option value="$PROJECT_DIR$/testMem.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ee90a3cb-751d-4257-ad91-b2d16aeede35/console_1.sql" />
+        <option value="$PROJECT_DIR$/testbattery.py" />
+        <option value="$PROJECT_DIR$/import_apk.py" />
+        <option value="$PROJECT_DIR$/app_info.py" />
+        <option value="E:/ExercisePro/starttime.py" />
+        <option value="E:/appiumtest/testTouch.py" />
+        <option value="E:/ExercisePro/starttime(1).py" />
+        <option value="E:/Tobs/bin/dex.py" />
+        <option value="E:/appium_demo/bin/com/ruby/em.py" />
+        <option value="E:/appiumtest/11.py" />
+        <option value="E:/appium_demo/bin/com/ruby/we.py" />
+        <option value="E:/appium_demo/bin/com/ruby/img.py" />
+        <option value="E:/appium_demo/bin/com/ruby/files.py" />
+        <option value="E:/appium_demo/bin/com/ruby/goog.py" />
+        <option value="$PROJECT_DIR$/starttime.py" />
+        <option value="E:/TobPro/email.py" />
+        <option value="E:/TobPro/files&amp;dirs.py" />
+        <option value="E:/appium_demo/bin/com/ruby/packname.py" />
+        <option value="E:/TobPro/filesdirs.py" />
+        <option value="E:/TobPro/tobemail.py" />
+        <option value="E:/appium_demo/bin/com/ruby/faem.py" />
+        <option value="E:/appium_demo/bin/com/ruby/dex.py" />
+        <option value="E:/appium_demo/bin/com/ruby/111.py" />
+        <option value="E:/TobPro/compare_img.py" />
+        <option value="E:/appium_demo/bin/com/ruby/compare_img.py" />
+        <option value="E:/TobPro/main.py" />
+        <option value="E:/TobPro/test.py" />
+        <option value="E:/TobPro/get_appInfo.py" />
+        <option value="E:/TobPro/handle_judge.py" />
+        <option value="E:/TobPro/maintest.py" />
+        <option value="E:/appium_demo/bin/com/ruby/line.py" />
+        <option value="E:/appium_demo/bin/com/ruby/url.py" />
+        <option value="E:/ExercisePro/exer001.py" />
+        <option value="E:/appium_demo/bin/com/ruby/download.py" />
+        <option value="E:/appium_demo/bin/com/ruby/shili2.py" />
+        <option value="E:/ExercisePro/downloadapk.py" />
+        <option value="E:/TestProjects/learnnotes.py" />
+        <option value="E:/TobPro/appium_def.py" />
+        <option value="E:/appiumtest/exp1.py" />
+        <option value="E:/TobTest/maintest.py" />
+        <option value="E:/testAir/test001.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="943" />
+    <option name="y" value="99" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TestNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAir" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Get&#9;null&#9;null&#10;img&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;DDL Data Source" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="E:/TobTest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="E:/appium_demo/bin/com/ruby/download.py" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="ExercisePro" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="ExercisePro" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ExercisePro" />
+      <recent name="E:\AutoTest\AutoTest\FunctionTest\test_data" />
+      <recent name="E:\AutoTest\AutoTest\FunctionTest" />
+      <recent name="E:\TestNew" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TobTest" />
+      <recent name="E:\TobPro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.exp1">
+    <configuration name="app_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TestNew" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_info.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../appium_demo/bin/com/ruby" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../appium_demo/bin/com/ruby/download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="downloadapk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExercisePro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ExercisePro" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ExercisePro/downloadapk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="exp1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appiumtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../appiumtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../appiumtest/exp1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="maintest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TobTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../TobTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../TobTest/maintest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.maintest (1)" />
+      <item itemvalue="Python.download" />
+      <item itemvalue="Python.downloadapk" />
+      <item itemvalue="Python.app_info" />
+      <item itemvalue="Python.exp1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.exp1" />
+        <item itemvalue="Python.maintest (1)" />
+        <item itemvalue="Python.download" />
+        <item itemvalue="Python.app_info" />
+        <item itemvalue="Python.downloadapk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="977ad983-63fd-45a2-83ad-96d2aa170615" name="Default" comment="" />
+      <created>1516264258633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516264258633</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_testTouch_py - 2018.07.17 at 10h 09m 28s.xml">
+      <configuration name="Unittests in testTouch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testTouch_py - 2018.07.17 at 10h 19m 05s.xml">
+      <configuration name="Unittests in testTouch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testTouch_py - 2018.07.18 at 16h 19m 00s.xml">
+      <configuration name="Unittests in testTouch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testTouch_py - 2018.07.18 at 16h 19m 54s.xml">
+      <configuration name="Unittests in testTouch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testTouch_py - 2018.07.18 at 16h 22m 19s.xml">
+      <configuration name="Unittests in testTouch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testTouch_py - 2018.07.18 at 16h 30m 23s.xml">
+      <configuration name="Unittests in testTouch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testTouch_py - 2018.07.18 at 16h 34m 51s.xml">
+      <configuration name="Unittests in testTouch.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5005365" side_tool="true" weight="0.6689038" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32997763" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3277405" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839056" weight="0.31208053" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946353" weight="0.1409396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10729614" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3299356" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3657718" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" side_tool="true" weight="0.3299356" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35234898" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="E:/" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/TobPro/test.py" />
+    <entry file="file://E:/AutoTest/AutoTest/FunctionTest/func_script/check_and_install_apk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobPro/compare_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobPro/handle_judge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobPro/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobPro/get_appInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1120166012/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="5022" column="24" lean-forward="true" selection-start-line="5022" selection-start-column="24" selection-end-line="5022" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appium_demo/bin/com/ruby/faem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobPro/filesdirs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobPro/maintest.py" />
+    <entry file="file://E:/appiumtest/test001.py" />
+    <entry file="file://E:/appiumtest/testTouch.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/appium_demo/bin/com/ruby/line.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appium_demo/bin/com/ruby/packname.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/email/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4221">
+          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/urllib3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1370" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/starttime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ExercisePro/hashExercise.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/ExercisePro/downloadapk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/email/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="136" column="8" selection-start-line="136" selection-start-column="8" selection-end-line="136" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/AutoTest/AutoTest/FunctionTest/func_script/appium_server_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobPro/appium_def.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TestProjects/learnnotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_info.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/TobTest/compare_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="2621" selection-start-line="2621" selection-end-line="2621" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appium_demo/bin/com/ruby/dex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appium_demo/bin/com/ruby/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appium_demo/bin/com/ruby/url.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/common/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/poplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14637">
+          <caret line="701" column="10" selection-start-line="701" selection-start-column="10" selection-end-line="701" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/AutoTest/AutoTest/FunctionTest/func_script/func_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5775">
+          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1120166012/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="391" column="4" selection-start-line="391" selection-start-column="4" selection-end-line="391" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/appium/webdriver/mobilecommand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/appium/webdriver/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="840" column="48" selection-start-line="840" selection-start-column="48" selection-end-line="840" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appium_demo/bin/com/ruby/shili2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2688">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4494">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/AutoTest/AutoTest/FunctionTest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/AutoTest/AutoTest/FunctionTest/func_script/send_email.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="101" column="4" selection-start-line="100" selection-end-line="104" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ExercisePro/exer001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#136#345#0" />
+            <element signature="e#379#897#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appiumtest/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appiumtest/22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/appiumtest/exp1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/TobTest/maintest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/testAir/test001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
