@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/ExercisePro/.idea/ExercisePro.iml" filepath="E:/ExercisePro/.idea/ExercisePro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestNew.iml" filepath="$PROJECT_DIR$/.idea/TestNew.iml" />
+      <module fileurl="file://E:/TestProjects/.idea/TestProjects.iml" filepath="E:/TestProjects/.idea/TestProjects.iml" />
+      <module fileurl="file://E:/TobPro/.idea/TobPro.iml" filepath="E:/TobPro/.idea/TobPro.iml" />
+      <module fileurl="file://E:/TobTest/.idea/TobTest.iml" filepath="E:/TobTest/.idea/TobTest.iml" />
+      <module fileurl="file://E:/appium_demo/.idea/appium_demo.iml" filepath="E:/appium_demo/.idea/appium_demo.iml" />
+      <module fileurl="file://E:/appiumtest/.idea/appiumtest.iml" filepath="E:/appiumtest/.idea/appiumtest.iml" />
+      <module fileurl="file://E:/AutoTest/AutoTest/.idea/autotest.iml" filepath="E:/AutoTest/AutoTest/.idea/autotest.iml" />
+      <module fileurl="file://E:/testAir/.idea/testAir.iml" filepath="E:/testAir/.idea/testAir.iml" />
+    </modules>
+  </component>
+</project>
