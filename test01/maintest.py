@@ -162,8 +162,8 @@ class Emails(object):
     def __init__(self):
         self.username = "zmtest2018@163.com"
         self.password = "zmzmzm123"
-        # self.receiver = "xuhe@excelliance.cn,wangzhihai@excelliance.cn,wenchunhe@excelliance.cn,guoxueli@excelliance.cn,jingchaojie@excelliance.cn,lixianzhuang@excelliance.cn"
-        self.receiver = "lixianzhuang@excelliance.cn"
+        self.receiver = "xuhe@excelliance.cn,wangzhihai@excelliance.cn,wenchunhe@excelliance.cn,guoxueli@excelliance.cn,jingchaojie@excelliance.cn,lixianzhuang@excelliance.cn"
+        # self.receiver = "lixianzhuang@excelliance.cn"
 
     def decode_str(self, ss):
         if not ss:
@@ -226,11 +226,6 @@ class Emails(object):
                     print("标题:%s" % subject)
                     print("附件%s已保存" % fileName)
 
-        # if fileName != "prevercode.txt":
-        #     print("未获取到文件，10分钟后重试")
-        #     time.sleep(600)
-        #     self.get_mails()
-        # else:
         server.quit()
 
     def send_email(self, sub, imgpath, *dl_url):
@@ -306,6 +301,8 @@ class do_log(object):
                         break
                 # print(a)
                 os.popen("adb shell kill " + a[1])
+        print("log已停止抓取")
+
 
 
 class FileOperate(object):
@@ -594,6 +591,7 @@ class MainTest(object):
         size = round(s / (1024 * 1024), 2)
         print("该包大小为：" + str(size) + "M")
         if size >= 500:
+            fd.del_line(url)
             return
         else:
             pass
@@ -633,7 +631,7 @@ class MainTest(object):
         time1 = self.present_time()
         time2 = 0
         for line in open(link_files_path + "backup.txt", encoding="utf-8"):
-            print(line)
+            # print(line)
             line = line.strip()
             if line:
                 print(line)
@@ -699,18 +697,7 @@ class MainTest(object):
                     print("等待中...")
                     time.sleep(120)
                     time3 = abs(self.present_time() - time1)
-                    # if time3 < 100:
-                    #     print("等待中...")
-                    #
-                    #     time.sleep(120)
-                    #     time3 = abs(self.present_time() - time1)
-                    # else:
-                    #     emails.get_mails()
-                    #     fo.confirm_md5()
-                    #     self.check_test()
-                    #     break
 
-    # @staticmethod
     def hot_updata(self, apkpath, apkname, *dl_url):
         hot_flag = 0
         times_flag = 0
@@ -723,11 +710,8 @@ class MainTest(object):
         getinfo = GetInfo()
         judgement = Judgement()
         appium = AppiumInit()
+        self.now_time()
         do_log().get_log()
-        # os.popen("adb shell am start -n " + getinfo.get_apk_name(apkpath) + "/" + getinfo.get_apk_activity(apkpath))
-        # time.sleep(5)
-        # print("+++++++++++++++++")
-        # os.popen("adb shell screenrecord ")
         try:
             print("_______________________")
             appium.appium_init(apkpath)
@@ -839,19 +823,17 @@ class MainTest(object):
                     except BaseException:
                         continue
 
-                if up_ok_flag == 1:
+                if up_ok_flag == 3:
                     self.now_time()
                     print("更新没问题！" + apkname)
                     driver.close_app()  # 关闭app
                     driver.remove_app(apk_name)  # 卸载app
                     os.remove(apkpath)
-                    # url.dellog()
                     break
                 elif ww > 0:
                     driver.close_app()  # 关闭app
                     driver.remove_app(apk_name)  # 卸载app
                     os.remove(apkpath)
-                    # url.dellog()
                     break
 
             else:
@@ -913,9 +895,9 @@ class MainTest(object):
                                 ww = ww + 1
                                 # url.dellog()
                                 break
-            if up_ok_flag == 1 or ww > 0:
+            if up_ok_flag == 3 or ww > 0:
                 break
-
+        self.now_time()
         do_log().stop_log()
         self.now_time()
         print("退出")
@@ -934,11 +916,6 @@ if __name__ == "__main__":
     # MainTest.hot_updata('E:\\TobTest\\apk_dl\\67380_11_1.1_com.xinlian.coinu.apk', "67380_11_1.1_com.xinlian.coinu.apk")
     # appium = AppiumInit()
     # appium.appium_init(apk_dl_Path+'66753_79_25.1_com.u1game.ptyj.mi.apk')
-    # try:
-    #     driver.find_element_by_xpath("//*[@text='下载失败，请检查网络']").is_displayed()
-    #     print(1111)
-    # except:
-    #     print(2222)
     # driver.close_app()
     # driver.remove_app('com.lixxix.hall.apk')
     # Judgement().find_setting()
