@@ -176,7 +176,14 @@ class Emails(object):
 
     def del_mail(self):
         host = 'pop.163.com'
-        server = poplib.POP3(host, port=110)
+        # server = poplib.POP3(host, port=110)
+        while 1:
+            try:
+                server = poplib.POP3_SSL(host)
+                break
+            except TimeoutError:
+                print("连接超时，4分钟后重试")
+                time.sleep(240)
         server.user(self.username)
         server.pass_(self.password)
         # 获得邮件
@@ -464,7 +471,7 @@ class Judgement(object):
             print("白屏或黑屏应用已移至err_app文件夹")
             return False
 
-        if err >= 9 and self.find_setting() is False:
+        if err >= 8 and self.find_setting() is False:
             ss = apkname + "闪退了+" + sc
             print(ss)
             emails.send_email(status + apkname + "闪退了", sc, dl_url[0])
@@ -543,6 +550,18 @@ class MainTest(object):
             if i != "\n":
                 i = i.split(" ")
                 os.popen("adb shell kill " + i[2])
+
+    def launch_myapp(self, apk_name, apkpath):
+        judge = Judgement()
+        getinfo = GetInfo()
+        while 1:
+            driver.launch_app()
+            time.sleep(2)
+            fs = judge.find_setting()
+            if fs is False:
+                os.popen("adb shell am start -n " + apk_name + "/" + getinfo.get_apk_activity(apkpath))
+            else:
+                break
 
     def get_install(self, url):
         """传入txt文件中获取的链接地址"""
@@ -720,13 +739,15 @@ class MainTest(object):
             self.now_time()
             print(colored("应用异常，即将跳过当前应用测试下一应用……", "red"))
             return
-        time.sleep(5)
+        time.sleep(6)
         self.now_time()
-        judgement.judge_pic2("安装后首次启动", v_apkname, dl_url[0])
+        bb = judgement.judge_pic2("安装后首次启动", v_apkname, dl_url[0])
+        if bb is False:
+            driver.remove_app(apkname)
+            return
         apk_name = apkname
         print(apk_name)
         b_time = int(time.time())  # 开始的时间戳
-        time.sleep(3)
         while 1:
             if hot_flag == 1:
                 time.sleep(5)
@@ -747,7 +768,8 @@ class MainTest(object):
                     elif times_flag == 15:
                         os.popen("adb shell am force-stop " + apk_name)
                         time.sleep(2)
-                        driver.launch_app()
+                        self.launch_myapp(apk_name, apkpath)
+                        # driver.launch_app()
                         time.sleep(3)
                     else:
                         pass
@@ -801,11 +823,15 @@ class MainTest(object):
                                 self.now_time()
                                 print(colored("检测到downloadFinish值为true，杀进程", "blue"))
                                 os.popen("adb shell am force-stop " + apk_name)  # 杀掉包名下的所属id进程
-                                time.sleep(4)
+                                time.sleep(2)
                                 self.now_time()
                                 print(colored("重启应用……", "blue"))
-                                driver.launch_app()
-                                # os.popen("adb shell am start -n " + apk_name + "/" + getinfo.get_apk_activity(apkpath))
+                                self.launch_myapp(apk_name, apkpath)
+                                qq = judgement.judge_pic2("检测到downloadFinish值为true，杀进程之后", v_apkname, dl_url[0])
+                                if qq is False:
+                                    print("重启过程中发现异常")
+                                    driver.remove_app(apk_name)
+                                    return
                                 self.now_time()
                                 print(colored("重启成功", "blue"))
 
@@ -882,7 +908,7 @@ class MainTest(object):
                         else:
                             w = w + 1
                             os.popen("adb shell am force-stop " + apk_name)
-                            time.sleep(5)
+                            time.sleep(3)
                             os.popen(
                                 "adb shell am start -n " + apk_name + "/" + getinfo.get_apk_activity(apkpath))  # 启动应用
                             time.sleep(2)
@@ -899,7 +925,7 @@ class MainTest(object):
                                 self.now_time()
                                 print("没有更新需求！" + apkname)
                                 driver.close_app()
-                                time.sleep(2)  # 关闭app
+                                time.sleep(1)  # 关闭app
                                 self.now_time()
                                 print("卸载APP")
                                 driver.remove_app(apk_name)  # 卸载app
