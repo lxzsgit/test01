@@ -597,6 +597,7 @@ class MainTest(object):
                 code.write(r.content)
                 self.now_time()
                 print("下载完成")
+            fd.del_line(url)
             self.now_time()
             print("安装中...")
             p = subprocess.Popen("adb install " + apk_path, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -605,7 +606,6 @@ class MainTest(object):
             if "Success" in oo:
                 self.now_time()
                 print("安装成功")
-                fd.del_line(url)
                 self.hot_updata(apk_path, apkn.group(1), apk_name, dl_url)
             else:
                 self.now_time()
@@ -623,30 +623,31 @@ class MainTest(object):
         fo = FileOperate()
         time1 = self.present_time()
         time2 = 0
-        for line in open(link_files_path + "backup.txt", encoding="utf-8"):
-            line = line.strip()
-            if line:
-                print(line)
-                self.get_install(line)
-                time2 = abs(self.present_time() - time1)
-                tt = self.present_time() % 100
-                if tt <= 2 or time2 >= 100:
-                    time1 = self.present_time()
-                    have_em = emails.get_mails()
-                    if have_em is not True:  # 判断邮件是否有附件，没有则删掉
-                        emails.del_mail()
-                    elif os.path.getsize(link_files_path + "prevercode.txt") <= 10:  # 如果有附件但没内容也删掉
-                        print("该邮件附件内容为空，已删除")
-                        emails.del_mail()
-                    else:
-                        pass
+        with open(link_files_path + "backup.txt", 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    print(line)
+                    self.get_install(line)
+                    time2 = abs(self.present_time() - time1)
+                    tt = self.present_time() % 100
+                    if tt <= 2 or time2 >= 100:
+                        time1 = self.present_time()
+                        have_em = emails.get_mails()
+                        if have_em is not True:  # 判断邮件是否有附件，没有则删掉
+                            emails.del_mail()
+                        elif os.path.getsize(link_files_path + "prevercode.txt") <= 10:  # 如果有附件但没内容也删掉
+                            print("该邮件附件内容为空，已删除")
+                            emails.del_mail()
+                        else:
+                            pass
 
-                    ff = fo.confirm_md5()
-                    if ff is True:
-                        time.sleep(5)
-                        self.check_test()
-                    else:
-                        pass
+                        ff = fo.confirm_md5()
+                        if ff is True:
+                            time.sleep(5)
+                            self.check_test()
+                        else:
+                            pass
 
         if time2 < 100:
             self.now_time()
@@ -676,6 +677,8 @@ class MainTest(object):
                         have_em1 = emails.get_mails()
                         if have_em1 is not True:
                             emails.del_mail()
+                            time.sleep(1)
+                            emails.get_mails()
                         elif os.path.getsize(link_files_path + "prevercode.txt") <= 10:  # 如果有附件但没内容也删掉
                             print("该邮件附件内容为空，已删除")
                             emails.del_mail()
@@ -691,6 +694,8 @@ class MainTest(object):
                 else:
                     self.now_time()
                     print(colored("安装失败", "red"))
+                    os.remove(apk_dl_Path + fup)
+
             while 1:
                 print(time3)
                 pt = self.present_time()
