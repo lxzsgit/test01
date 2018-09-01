@@ -63,26 +63,46 @@ class AppiumInit(object):
         except BaseException:
             return False
 
-    def overlay(self):
-        """判断是否为覆盖安装"""
+    def next_step(self):
         try:
             driver.find_element_by_android_uiautomator('new UiSelector().text("下一步")').click()
         except BaseException:
             pass
+
+    def overlay(self):
+        """判断是否为覆盖安装"""
         try:
             driver.find_element_by_android_uiautomator('new UiSelector().text("安装")').click()
             print("——————覆盖安装——————")
+            return True
         except BaseException:
             return False
-        return True
+
+    def judge_open(self):
+        try:
+            enabled = driver.find_element_by_android_uiautomator('new UiSelector().text("打开")').is_enabled()
+            return enabled
+        except BaseException:
+            return None
 
     def overlay_launch(self):
+        # jo = self.judge_open()
+        # if jo is True:
         try:
             driver.find_element_by_android_uiautomator('new UiSelector().text("打开")').click()
             print("覆盖安装后启动")
         except BaseException:
             return False
         return True
+        # elif jo is False:
+        #     try:
+        #         driver.find_element_by_android_uiautomator('new UiSelector().text("完成")').click()
+        #         print("覆盖安装后启动")
+        #     except BaseException:
+        #         return False
+        #     return True
+        # else:
+        #     pass
 
     def check_appium_server(self):
         # 检测appium服务是否已开启
@@ -352,10 +372,12 @@ class FileOperate(object):
         m1 = self.get_file_md5(link_files_path + "lastfile.txt")
         m2 = self.get_file_md5(link_files_path + "prevercode.txt")
         if m1 != m2:
+            with open(link_files_path + 'backup.txt', 'a') as ff:
+                ff.write('\n')
             try:
                 for line in open(link_files_path + "prevercode.txt", encoding="utf-8"):
                     with open(link_files_path + 'backup.txt', 'a') as f:
-                        f.write("\n" + line)
+                        f.write(line)
                 os.remove(link_files_path + "lastfile.txt")
                 os.rename(link_files_path + "prevercode.txt", link_files_path + "lastfile.txt")
             except:
@@ -568,9 +590,9 @@ class MainTest(object):
         fd = FileOperate()
         dl_url = "http://" + url  # 这里网址结尾为.obb
         lu = url.split("/")
-        l6 = lu[-1].split("obb")
+        l6 = lu[-1].split(".obb")
         a = l6[0]
-        apk_name = a + "apk"
+        apk_name = a + ".apk"
         apk_path = apk_dl_Path + apk_name
         print(apk_path)
         print(dl_url)
@@ -636,6 +658,8 @@ class MainTest(object):
                         have_em = emails.get_mails()
                         if have_em is not True:  # 判断邮件是否有附件，没有则删掉
                             emails.del_mail()
+                            time.sleep(1)
+                            emails.get_mails()
                         elif os.path.getsize(link_files_path + "prevercode.txt") <= 10:  # 如果有附件但没内容也删掉
                             print("该邮件附件内容为空，已删除")
                             emails.del_mail()
@@ -674,6 +698,7 @@ class MainTest(object):
                         pass
                     time3 = abs(self.present_time() - time1)
                     if self.present_time() % 100 <= 2 or time3 >= 100:
+                        time1 = self.present_time()
                         have_em1 = emails.get_mails()
                         if have_em1 is not True:
                             emails.del_mail()
@@ -705,6 +730,8 @@ class MainTest(object):
                     have_em2 = emails.get_mails()
                     if have_em2 is not True:
                         emails.del_mail()
+                        time.sleep(1)
+                        emails.get_mails()
                     elif os.path.getsize(link_files_path + "prevercode.txt") <= 10:  # 如果有附件但没内容也删掉
                         print("该邮件附件内容为空，已删除")
                         emails.del_mail()
@@ -727,6 +754,7 @@ class MainTest(object):
         up_ok_flag = 0
         wh = 0
         w = 0
+        reload_flag = 0
 
         print(apkpath)
         getinfo = GetInfo()
@@ -760,7 +788,7 @@ class MainTest(object):
                     if int(time.time()) - b_time >= 900:  # 如果测试当前包测试时间大于15分钟，则放弃测试此包
                         self.now_time()
                         print(colored("测试时间过长，跳过该应用", "red"))
-                        driver.remove_app(apk_name)
+                        os.popen("adb uninstall " + apk_name)
                         return
                     else:
                         pass
@@ -781,7 +809,6 @@ class MainTest(object):
                     try:
                         driver.find_element_by_android_uiautomator(
                             'new UiSelector().resourceIdMatches(".*id/lebian_positiveButton$")').click()
-                        # driver.find_element_by_id(apk_name + ":id/lebian_positiveButton").click()
                     except:
                         pass
                     try:
@@ -839,15 +866,19 @@ class MainTest(object):
                                     return
                                 self.now_time()
                                 print(colored("重启成功", "blue"))
+                                reload_flag += 1
 
+                    if reload_flag == 3:
+                        print('重启3次未检测到内容，跳过该应用！')
+                        return
+                    appium.next_step()
                     appium.overlay()
                     fg = appium.overlay_launch()
                     if fg is True:
-                        time.sleep(1)
+                        time.sleep(2)
                         self.now_time()
                         judgement.judge_pic2("覆盖安装再启动", v_apkname, dl_url[0])
-                    else:
-                        pass
+                        break
                     if wh == 1:
                         break
                     elif times_flag > 15:
