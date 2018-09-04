@@ -1,0 +1,129 @@
+HomePage:
+  dec: 主界面
+  locators:
+      -
+        name: 个人中心
+        type: id
+        value: com.excelliance.dualaid:id/iv_icon
+      -
+        name: 空间切换
+        type: id
+        value: com.excelliance.dualaid:id/ib_lock
+      -
+        name: 一键清理
+        type: id
+        value: com.sankuai.meituan:id/search_edit
+      -
+        name: 添加按钮
+        type: id
+        value: com.excelliance.dualaid:id/add_but
+      -
+        name: 多开引导
+        type: id
+        value: com.excelliance.dualaid:id/tv_app_add
+      -
+        name: icon位
+        type: id
+        value: com.excelliance.dualaid:id/root
+      -
+        name: activity
+        type: id
+        value: com.excelliance.kxqp.ui.MainActivity
+      -
+        name: 添加引导
+        type: id
+        value: com.excelliance.dualaid:id/tv_bt_add
+      -
+        name: 应用菜单窗口
+        type: id
+        value: com.excelliance.dualaid:id/rootView
+      -
+        name: 桌面图标
+        type: id
+        value: com.excelliance.dualaid:id/item_pop_icon_relative
+      -
+        name: 移动位置
+        type: id
+        value: com.excelliance.dualaid:id/item_pop_move_relative
+      -
+        name: 图标伪装
+        type: id
+        value: com.excelliance.dualaid:id/item_pop_custom_relative
+      -
+        name: 删除应用
+        type: id
+        value: com.excelliance.dualaid:id/item_pop_delete_relative
+      -
+        name: 一键修复
+        type: id
+        value: com.excelliance.dualaid:id/item_pop_repair_relative
+      -
+        name: 二级菜单窗口X
+        type: id
+        value: com.excelliance.dualaid:id/dialog_image_back
+      -
+        name: 删除
+        type: id
+        value: com.excelliance.dualaid:id/tv_left
+      -
+        name: 完成
+        type: id
+        value: com.excelliance.dualaid:id/ib_menuorcontent
+      -
+        name: 二级菜单窗口
+        type: id
+        value: com.excelliance.dualaid:id/dialog_main
+      -
+        name: 换机数据迁移
+        type: xpath
+        value: //*[@text="换机数据迁移"]
+      -
+        name: 弹出窗
+        type: id
+        value: com.excelliance.dualaid:id/ll_dialog
+      -
+        name: 弹出窗左按钮
+        type: id
+        value: com.excelliance.dualaid:id/tv_left
+      -
+        name: 弹出窗右按钮
+        type: id
+        value: com.excelliance.dualaid:id/tv_right
+      -
+        name: 防封号不再提醒
+        type: id
+        value: com.excelliance.dualaid:id/cb_noToast
+      -
+        name: 防封号暂不
+        type: id
+        value: com.excelliance.dualaid:id/tv_left
+      -
+        name: 微信
+        type: xpath
+        value: //*[@text="微信"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,755 @@
+--------- beginning of main
+06-24 15:26:34.756 I/TrafficMonitor(  657): update:rxPkts:1,txPkts:0,rxBytes:229,txBytes:0
+06-24 15:26:34.756 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:34.756 I/TrafficMonitor(  657): gettimer:interval=2000
+--------- beginning of system
+06-24 15:26:34.886 D/HwBatteryService(  657): onUEvent fcpStatus = 0,scpStatus =0,ovpStatus=0
+06-24 15:26:34.887 I/UsbDeviceManager(  657): water_intrused state= 0
+06-24 15:26:34.906 D/HwWifiStatStore(  657): handleMessage : 200
+06-24 15:26:34.909 D/HwInnerWifiManagerImpl(  657): SupplicantState = COMPLETED
+06-24 15:26:34.909 D/HwInnerWifiManagerImpl(  657): isPhoneAP = false
+06-24 15:26:34.909 D/WifiStateMachine(  657): mBcastReceiver: PluggedType = 2 mIsScanCtrlPluggedin = true
+06-24 15:26:34.909 D/HwWifiService(  657): mPluggedType =2
+06-24 15:26:34.909 D/WifiService(  657): onReceive, action:android.intent.action.BATTERY_CHANGED
+06-24 15:26:34.909 D/WifiService(  657): ACTION_BATTERY_CHANGED pluggedType: 2
+06-24 15:26:34.909 D/KeyguardUpdateMonitor( 1513): received broadcast android.intent.action.BATTERY_CHANGED
+06-24 15:26:34.909 W/KeyguardUpdateMonitor( 1513): ACTION_BATTERY_CHANGED AMP: 500000; Volt: 4697000
+06-24 15:26:34.910 V/KeyguardUpdateMonitor( 1513): RefreshBatteryInfo isBatteryLow: 38
+06-24 15:26:34.910 W/KeyguardUpdateMonitor( 1513): ChargingSpeed  Wattage: 2348500 ST: 5000000 --> 7500000
+06-24 15:26:34.910 I/KgBattery( 1513): BatteryInfo updated:  2lPc0
+06-24 15:26:34.910 W/AppHandler( 1513): sendMessage with obj100
+06-24 15:26:34.910 D/KeyguardUpdateMonitor( 1513): handleBatteryUpdate
+06-24 15:26:34.910 W/HwLockScreenPanel( 1513): Handle message: 100
+06-24 15:26:34.910 W/HwKeyguardBottomArea( 1513): updateBatteryInfo : false  true
+06-24 15:26:34.910 W/HwLockScreenPanel( 1513): refreshBatteryInfo: null
+06-24 15:26:34.910 W/KgBattery( 1513): getCharge info with type: text
+06-24 15:26:34.913 I/MsgReceiver( 1699): intent action: android.intent.action.BATTERY_CHANGED
+06-24 15:26:34.914 I/CloudAlbum[8.1.2.302]( 2775): [OperationUtil] cancelNotify
+06-24 15:26:34.954 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:34.955 W/ResourceType( 1513): No package identifier when getting value for resource number 0x00000000
+06-24 15:26:34.955 E/HwNotchUtils( 1513): setIconForView iconId is not found
+06-24 15:26:34.955 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:34.955 W/ResourceType( 1513): No package identifier when getting value for resource number 0x00000000
+06-24 15:26:34.955 E/HwNotchUtils( 1513): setIconForView iconId is not found
+06-24 15:26:35.052 I/MQoS    (  657): onSignal: mSubId=0,currDataSubID=0
+06-24 15:26:35.052 I/MQoS    (  657): received cell-signal:5
+06-24 15:26:35.053 D/SmartcareProc(  657): onSignalStrengthsChanged: signalStrength is: SignalStrength: 0 1955964583 0 255 0 0 32767 -1 32767 -1 -78 -4 13 -1 0 -1 false gw|lte , on sub: 0
+06-24 15:26:35.053 D/SmartcareProc(  657): SignalStrength update result, ss: SignalStrengthInfo:8749149 mGsmSignalStrength: -1 mWcdmaRscp: -1 mWcdmaEcio: 255 mLteRsrp: -78 mLteRsrq: -4 mCdmaDbm: -1 mCdmaEcio: -1 mEvdoDbm: 32767mEvdoEcio: -1mLteRssnr: 13
+06-24 15:26:35.056 I/HwMobileSignalController(0)( 1513): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+06-24 15:26:35.190 E/WifiHAL (  706): enter wifi_get_link_stats
+06-24 15:26:35.204 E/wificond(  765): Failed to get NL80211_STA_INFO_CNAHLOAD
+06-24 15:26:35.204 E/WificondControl(  657): Noise: -91, Snr: 0, Chload: -1
+06-24 15:26:35.204 D/HwWifiCHRStateManager(  657): handleMessage : 1001
+06-24 15:26:35.204 D/HwWifiCHRStateManager(  657): handleUpdateChannel:5805
+06-24 15:26:35.204 V/HwWifiServiceFactory(  657): get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@a390a53
+06-24 15:26:35.205 D/WifiScoreReport(  657): Score = 100, wifiConnectivityManagerEnabled = false, lowScoreCount = 0
+06-24 15:26:35.494 W/AwareLog(  657): AwareMem_MemoryUtils: trim Memory illegal arg exception, proc:27495 level:40
+06-24 15:26:35.958 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:36.070 I/ActivityManager(  657): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity} from uid 2000
+06-24 15:26:36.073 I/ash     ( 1699): front pkg : com.excelliance.dualaid launcher: false
+06-24 15:26:36.073 I/ash     ( 1699): above launcher front pkgs: [com.excelliance.dualaid]
+06-24 15:26:36.076 I/ActivityManager(  657): ActivityRecord info: ActivityInfo{7084511 com.excelliance.kxqp.ui.HelloActivity}
+06-24 15:26:36.078 V/WindowManager(  657): addAppToken: AppWindowToken{c04781a token=Token{b44e6c5 ActivityRecord{8da893c u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t16008}}} controller={TaskWindowContainerController taskId=16008} at 2147483647
+06-24 15:26:36.080 D/MotionDetectionManager( 2519): stopMotionAppsReco motionApps: 403
+06-24 15:26:36.080 D/MotionDetectionManager( 2519): stopMotionAppsReco not recognition motionApps 403
+06-24 15:26:36.080 W/HwLauncher( 2519): Launcher.MotionManager stopMotionAppsReco service flg 403 is unavailable
+06-24 15:26:36.081 I/PGServer( 1699): android calls fast hibernateApps
+06-24 15:26:36.081 I/AppFastHibernation( 1699): fast hibernate duration: 1500 reason: start activity
+06-24 15:26:36.081 I/Pged-IPgedBinderService(  769): ****action is 1, pid num is 6***
+06-24 15:26:36.081 I/Pged-Freezer(  769): freezePids
+06-24 15:26:36.081 I/Pged-Freezer(  769): Freeze process: 29457
+06-24 15:26:36.081 I/Pged-Freezer(  769): Freeze process: 29531
+06-24 15:26:36.082 I/Pged-Freezer(  769): Freeze process: 29347
+06-24 15:26:36.082 I/Pged-Freezer(  769): Freeze process: 27318
+06-24 15:26:36.082 I/Pged-Freezer(  769): Freeze process: 27449
+06-24 15:26:36.083 V/ActivityManager(  657): startProcess: name=com.excelliance.dualaid:olle app=null knownToBeDead=true thread=null pid=-1
+06-24 15:26:36.084 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:36.085 D/PgedBinderAdapter( 1699): frz ok, pid: [29457, 29531, 29347, 27318, 27449]
+06-24 15:26:36.086 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:1, output hwFlags:0
+06-24 15:26:36.091 I/        (28712): power log dlsym ok
+06-24 15:26:36.092 I/ActivityManager(  657): Start proc 28712:com.excelliance.dualaid:olle/u0a1421 for activity com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity
+06-24 15:26:36.092 V/WindowManager(  657): No longer Stopped: AppWindowToken{c04781a token=Token{b44e6c5 ActivityRecord{8da893c u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t16008}}}
+06-24 15:26:36.093 V/ActivityManager(  657): startProcess: name=com.excelliance.dualaid:olle app=ProcessRecord{89b3f4b 28712:com.excelliance.dualaid:olle/u0a1421} knownToBeDead=true thread=null pid=28712
+06-24 15:26:36.093 I/zygote  (28712): Reinit property: dalvik.vm.checkjni= false
+06-24 15:26:36.107 D/ActivityThread(28712): ActivityThread,attachApplication
+06-24 15:26:36.108 D/ActivityManager(  657): ActivityManagerService,attachApplication,callingPid = 28712
+06-24 15:26:36.111 V/WindowManager(  657): No longer Stopped: AppWindowToken{c04781a token=Token{b44e6c5 ActivityRecord{8da893c u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t16008}}}
+06-24 15:26:36.122 V/WindowManager(  657): findFocusedWindow: AppWindowToken{d3a938b token=Token{377755a ActivityRecord{d5c9105 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t15658}}} below Reached focused app=AppWindowToken{c04781a token=Token{b44e6c5 ActivityRecord{8da893c u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t16008}}}
+06-24 15:26:36.123 D/ScenarioService( 1699): front pkg : com.excelliance.dualaid launcher: false
+06-24 15:26:36.123 D/ScenarioService( 1699): new above launcher front pkgs: [com.excelliance.dualaid]
+06-24 15:26:36.123 I/AppsUsage( 1699): scnOff:false FgAPP:com.excelliance.dualaid BgAPP:com.huawei.android.launcher
+06-24 15:26:36.124 D/EmcomManagerService(  657): forePackage name is com.excelliance.dualaid
+06-24 15:26:36.124 D/HicomPolicyManager(  657): foreAppInfo = nullpkgName = com.excelliance.dualaid uid= 11421
+06-24 15:26:36.124 E/HicomPolicyManager(  657): udp acc is not start yet!
+06-24 15:26:36.124 D/HicomPolicyManager(  657): speed control is not start
+06-24 15:26:36.124 E/HicomPolicyManager(  657): Network Evaluation is not start yet!
+06-24 15:26:36.124 E/HicomPolicyManager(  657): foreground app info is null
+06-24 15:26:36.125 D/[HwRecSys]HwRecSysService( 2647): onEvent actionID: 10000 msg:com.excelliance.dualaid		
+06-24 15:26:36.125 E/[HwRecSys]HwRecSysService( 2647): getIsRportDirectService is false!
+06-24 15:26:36.125 I/PGServer( 1699): report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 657
+06-24 15:26:36.125 I/PGServer( 1699): report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1699
+06-24 15:26:36.125 I/SceneReceiver( 1699): state type: 10010 eventType:2 pid:0 uid:0 pkg:com.huawei.android.launcher
+06-24 15:26:36.125 I/PGServer( 1699): report state:10000 event type:1 pid:0 uid:0 pkg:com.excelliance.dualaid to pid: 657
+06-24 15:26:36.125 I/PGServer( 1699): report state:10000 event type:1 pid:0 uid:0 pkg:com.excelliance.dualaid to pid: 1699
+06-24 15:26:36.125 I/SceneReceiver( 1699): state type: 10000 eventType:1 pid:0 uid:0 pkg:com.excelliance.dualaid
+06-24 15:26:36.126 I/PGServer( 1699): checkPkgType. calling pkg: android
+06-24 15:26:36.126 D/HwThermalStateManager( 1699): current foreapp pkg : com.excelliance.dualaid
+06-24 15:26:36.126 I/PGServer( 1699): checkPkgType. calling pkg: android
+06-24 15:26:36.128 V/WindowManager(  657): Checking 1 opening apps (frozen=false timeout=false)...
+06-24 15:26:36.128 V/WindowManager(  657): Check opening app=AppWindowToken{c04781a token=Token{b44e6c5 ActivityRecord{8da893c u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t16008}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+06-24 15:26:36.130 D/HwQoEUtils(  657): mForegroundAppPackageName: com.excelliance.dualaid:olle ,score: 0
+06-24 15:26:36.130 D/HwQoEUtils(  657): APP type: -1 appName= com.excelliance.dualaid:olle
+06-24 15:26:36.130 D/HwQoEUtils(  657): RealAppName:com.excelliance.dualaid
+06-24 15:26:36.130 D/HwQoEUtils(  657): no game, APP_TYPE_GAME, appName =com.excelliance.dualaid:olle
+06-24 15:26:36.130 D/HwGameAssistantController(  657): pid=28712, uid=11421, foreground=true
+06-24 15:26:36.132 I/HwNetworkPolicy(  657): onTransact, code = 203
+06-24 15:26:36.132 I/HwNetworkPolicyManager( 1813): getHwUidPolicy uid = 11421 policy = 0
+06-24 15:26:36.132 W/AwareLog(  657): SchedLevelBoost: onFgActivitiesChanged config not set!
+06-24 15:26:36.134 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:36.135 W/libc    ( 1699): Set property "sys.aps.gameProcessName" to ""
+06-24 15:26:36.135 W/libc    ( 1699): Set property "sys.aps.browserProcessName" to ""
+06-24 15:26:36.143 D/HwFLClassLoader(28712): get used feature list :/feature/used-list failed!
+06-24 15:26:36.144 D/HwFLClassLoader(28712): USE_FEATURE_LIST had not init! 
+06-24 15:26:36.147 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:36.148 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x1,btStrd=256,size=4096,pid=679 
+06-24 15:26:36.148 I/GRALLOC (  679): 	 yuv=2,w=16,h=16,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:36.148 I/GRALLOC (  679): 	 iova_size=4096,conUsg=0x100,proUsg=0x100,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+06-24 15:26:36.172 E/MemoryLeakMonitorManager(28712): MemoryLeakMonitor.jar is not exist!
+06-24 15:26:36.173 D/CrashHandler(28712): CrashHandler
+06-24 15:26:36.173 D/KXQPApplication(28712): run: initUserManager
+06-24 15:26:36.174 E/Minikin (28712): Could not get cmap table size!
+06-24 15:26:36.174 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.183 I/HwCust  (28712): Constructor found for class android.app.HwCustActivityImpl
+06-24 15:26:36.183 D/HwCust  (28712): Create obj success use class android.app.HwCustActivityImpl
+06-24 15:26:36.185 V/HwPolicyFactory(28712): : success to get AllImpl object and return....
+06-24 15:26:36.187 I/HwCust  (28712): Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+06-24 15:26:36.187 D/HwCust  (28712): Create obj success use class android.app.HwCustHwWallpaperManagerImpl
+06-24 15:26:36.188 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:36.189 V/HwWidgetFactory(28712): : successes to get AllImpl object and return....
+06-24 15:26:36.190 V/ActivityThread(28712): ActivityThread,callActivityOnCreate
+06-24 15:26:36.191 D/HelloActivity(28712): Memory:25147M
+06-24 15:26:36.192 D/HelloActivity(28712): onCreate: true
+06-24 15:26:36.194 D/HelloActivity(28712): is code boot
+06-24 15:26:36.194 D/HwRecentsLockUtils( 1513): Search
+06-24 15:26:36.194 E/HsmCoreServiceImpl( 1478): onTransact in code is: 103
+06-24 15:26:36.194 I/MediaProcessHandler( 1478): playingUids: 
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping, home or recents stack task: TaskRecord{333215f #15658 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10a00000 cmp=io.appium.settings/.Settings
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,928][1032,2296]
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXPayEntryActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:flg=0x10800000 cmp=com.huawei.systemmanager/com.huawei.permissionmanager.ui.MainActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:act=com.huawei.action.VOICE_ASSISTANT flg=0x10800000 pkg=com.huawei.vassistant cmp=com.huawei.vassistant/.ui.main.VAssistantActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:act=com.huawei.android.launcher.action.ACCESS_SPLIT_SCREEN_APP cat=[android.intent.category.DEFAULT] flg=0x10804000 cmp=com.huawei.android.launcher/.splitscreen.SplitScreenAppActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:flg=0x10800000 pkg=com.excelliance.dualaid.b64 cmp=com.excelliance.dualaid.b64/com.excelliance.kxqp.sdk.PermissionRequestActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:act=android.intent.action.VIEW dat=content://com.excelliance.dualaid.fileProvider/external_storage_root/Download/apk/Multiple_64.apk typ=application/vnd.android.package-archive flg=0x10800001 cmp=com.android.packageinstaller/.InstallStart
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:flg=0x10800000 cmp=com.android.systemui/.usb.HwUsbDebuggingActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:act=android.deviceinfo.chooser.action.LAUNCH flg=0x10800000 hwFlg=0x100 pkg=com.android.settings cmp=com.android.settings/.deviceinfo.UsbConnModeChooserActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:flg=0x10800000 cmp=com.zol.android/.push.KeepLiveActivity
+06-24 15:26:36.194 D/ActivityManager(  657): Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800300 cmp=com.android.settings/.FallbackHome
+06-24 15:26:36.196 D/HelloActivity(28712): mIsNav = false
+06-24 15:26:36.216 W/AlarmManager(  657): mIsScreenOn is: true, WAKEUP alarm trigger action = com.huawei.intent.action.PUSH package name is: android
+06-24 15:26:36.217 D/HelloActivity(28712): defDisplayStyle:5
+06-24 15:26:36.219 I/PushLog2946( 5235): [main-1]action is com.huawei.intent.action.PUSH(android/null:27)
+06-24 15:26:36.219 I/PushLog2946( 5235): [main-1]broadcast(),and mReceivers  4(android/null:41)
+06-24 15:26:36.221 I/PushLog2946( 5235): [main-1]dispatchIntent over(android/null:71)
+06-24 15:26:36.221 V/BroadcastQueue(  657): Finished with ordered broadcast BroadcastRecord{916297d u0 com.huawei.intent.action.PUSH}
+06-24 15:26:36.222 I/PushLog2946( 5235): [ReceiverDispatcher-272]heartbeatArrive(android/null:4)
+06-24 15:26:36.224 D/HttpUtils(28712): getDownloadMode()
+06-24 15:26:36.224 D/NetUtils(28712): init inited = true
+06-24 15:26:36.224 I/PushLog2946( 5235): [ReceiverDispatcher-272]heartbeatArrive, send heart beat(android/null:33)
+06-24 15:26:36.224 D/HelloActivity(28712): enter Nav2
+06-24 15:26:36.226 D/NetworkSecurityConfig(28712): No Network Security Config specified, using platform default
+06-24 15:26:36.226 I/ActivityManager(  657): START u0 {pkg=com.excelliance.dualaid cmp=com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 (has extras)} from uid 11421
+06-24 15:26:36.229 I/ActivityManager(  657): ActivityRecord info: ActivityInfo{46c71fb com.excelliance.kxqp.swipe.NavActivity2}
+06-24 15:26:36.229 W/libc    (  493): Set property "hw.wifi.dns_stat" to "28800,24583,5028,1,51945"
+06-24 15:26:36.229 V/WindowManager(  657): findFocusedWindow: AppWindowToken{d3a938b token=Token{377755a ActivityRecord{d5c9105 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t15658}}} below Reached focused app=AppWindowToken{c04781a token=Token{b44e6c5 ActivityRecord{8da893c u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t16008}}}
+06-24 15:26:36.229 I/PushLog2946( 5235): [ReceiverDispatcher-272]not support bastet in wifi(android/null:21)
+06-24 15:26:36.230 I/PushLog2946( 5235): [ReceiverDispatcher-272]init push bastet failed!(android/null:33)
+06-24 15:26:36.230 I/PushLog2946( 5235): [ReceiverDispatcher-272]set HEARTBEAT_RSP_TIMEOUT Alarm(android/null:69)
+06-24 15:26:36.230 V/WindowManager(  657): addAppToken: AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}} controller={TaskWindowContainerController taskId=16008} at 2147483647
+06-24 15:26:36.237 V/ActivityManager(  657): startProcess: name=com.excelliance.dualaid app=null knownToBeDead=true thread=null pid=-1
+06-24 15:26:36.237 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:36.243 I/PushLog2946( 5235): [ReceiverDispatcher-272]ready to Send:DA(android/null:78)
+06-24 15:26:36.243 I/ActivityManager(  657): Start proc 28742:com.excelliance.dualaid/u0a1421 for service com.excelliance.dualaid/com.excelliance.kxqp.SmtServService
+06-24 15:26:36.244 I/PushLog2946( 5235): [ReceiverDispatcher-272]send msg to remote srv success(android/null:93)
+06-24 15:26:36.245 I/        (28742): power log dlsym ok
+06-24 15:26:36.247 I/zygote  (28742): Reinit property: dalvik.vm.checkjni= false
+06-24 15:26:36.250 D/HwNetworkManagementService(  657): code == CODE_GET_AD_KEY_LIST
+06-24 15:26:36.250 D/HwNetworkManagementService(  657): appName = com.excelliance.dualaid  is not in the mAdViewMap! reply none
+06-24 15:26:36.250 D/HwNetworkManagementService(  657): appName = com.excelliance.dualaid  is not in the mAdIdMap! reply none
+06-24 15:26:36.253 D/ActivityThread(28712): add activity client record, r= ActivityRecord{cbe2ddc token=android.os.BinderProxy@d13fa03 {com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity}} token= android.os.BinderProxy@d13fa03
+06-24 15:26:36.254 V/WindowManager(  657): No longer Stopped: AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}
+06-24 15:26:36.255 V/WindowManager(  657): No longer Stopped: AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}
+06-24 15:26:36.255 D/ActivityThread(28742): ActivityThread,attachApplication
+06-24 15:26:36.259 V/WindowManager(  657): Checking 1 opening apps (frozen=false timeout=false)...
+06-24 15:26:36.259 V/WindowManager(  657): Check opening app=AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+06-24 15:26:36.260 D/ActivityManager(  657): ActivityManagerService,attachApplication,callingPid = 28742
+06-24 15:26:36.264 D/HwCust  (28712): Create obj success use class android.app.HwCustActivityImpl
+06-24 15:26:36.264 D/HwCust  (28712): Create obj success use class android.app.HwCustHwWallpaperManagerImpl
+06-24 15:26:36.265 V/ActivityThread(28712): ActivityThread,callActivityOnCreate
+06-24 15:26:36.266 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:36.267 W/X509TrustManager(28712): checkServerTrusted: SignatureException:null
+06-24 15:26:36.267 W/X509TrustManager(28712): checkServerTrusted: SignatureException:error:04000073:RSA routines:OPENSSL_internal:DATA_TOO_LARGE_FOR_MODULUS
+06-24 15:26:36.271 D/NavActivity2(28712): onCreate
+06-24 15:26:36.273 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.274 I/PushLog2946( 5235): [SocketRead_09:42:16-2309]received a msg cmdId:DB(android/null:234)
+06-24 15:26:36.276 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.277 W/Utils   (28712): Utils_isSuperResolutionSupport [load libai_client.so failed]
+06-24 15:26:36.279 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+06-24 15:26:36.279 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+06-24 15:26:36.279 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+06-24 15:26:36.279 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+06-24 15:26:36.280 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+06-24 15:26:36.280 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+06-24 15:26:36.280 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+06-24 15:26:36.280 D/CubicBezierInterpolator(28712): CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+06-24 15:26:36.282 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:36.283 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x1,btStrd=256,size=4096,pid=679 
+06-24 15:26:36.283 I/GRALLOC (  679): 	 yuv=2,w=16,h=16,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:36.283 I/GRALLOC (  679): 	 iova_size=4096,conUsg=0x100,proUsg=0x100,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+06-24 15:26:36.286 D/HwRTBlurUtils(28712): check blur style for HwPhoneWindow-, themeResId : 0x7f0e000a, context : com.excelliance.kxqp.swipe.NavActivity2@794246b, Nhwext : 0, get Blur : disable with , null
+06-24 15:26:36.286 D/HwRTBlurUtils(28712): check blur style for HwPhoneWindow-, themeResId : 0x7f0e000a, context : com.excelliance.kxqp.swipe.NavActivity2@794246b, Nhwext : 0, get Blur : disable with , null
+06-24 15:26:36.287 E/test    (28712): hw notch screen flag api error
+06-24 15:26:36.287 I/PushLog2946( 5235): [SocketRead_09:42:16-2309]broadcast(),and mReceivers  4(android/null:41)
+06-24 15:26:36.288 D/HwFLClassLoader(28742): get used feature list :/feature/used-list failed!
+06-24 15:26:36.288 D/HwFLClassLoader(28742): USE_FEATURE_LIST had not init! 
+06-24 15:26:36.288 I/PushLog2946( 5235): [SocketRead_09:42:16-2309]dispatchIntent over(android/null:71)
+06-24 15:26:36.289 D/ActivityThread(28712): add activity client record, r= ActivityRecord{414755e token=android.os.BinderProxy@31abee5 {com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2}} token= android.os.BinderProxy@31abee5
+06-24 15:26:36.290 E/ViewUtils(28712): setBgColor: view==null:top
+06-24 15:26:36.300 D/OpenGLRenderer(28712):   HWUI Binary is  enabled
+06-24 15:26:36.301 D/SurfaceFlinger(  710): SurfaceFlinger: getDisplayConfigs--3.000000, 1080, 1920
+06-24 15:26:36.301 I/chatty  (  710): uid=1000(system) Binder:710_3 identical 1 line
+06-24 15:26:36.301 D/SurfaceFlinger(  710): SurfaceFlinger: getDisplayConfigs--3.000000, 1080, 1920
+06-24 15:26:36.302 D/OpenGLRenderer(28712): HWUI GL Pipeline
+06-24 15:26:36.303 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.304 D/HttpUtils(28712): getResponseCode():200
+06-24 15:26:36.304 D/WHEG    (28712): {"status":"0","controls":"","skip":"0"}
+06-24 15:26:36.306 V/WindowManager(  657): Adding Window{3ffecb3 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2} to AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}
+06-24 15:26:36.306 V/WindowManager(  657): addWindow: New client android.os.BinderProxy@6135a22: window=Window{3ffecb3 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2} Callers=com.android.server.wm.HwWindowManagerService.addWindow:562 com.android.server.wm.Session.addToDisplay:199 android.view.IWindowSession$Stub.onTransact:124 com.android.server.wm.Session.onTransact:161 android.os.Binder.execTransact:675 
+06-24 15:26:36.308 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.319 D/HwGalleryCacheManagerImpl(28712): mIsEffect:false
+06-24 15:26:36.313 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.319 V/WindowManager(  657): Checking 1 opening apps (frozen=false timeout=false)...
+06-24 15:26:36.320 V/WindowManager(  657): Check opening app=AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+06-24 15:26:36.320 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.359 D/HwRecentsLockUtils( 1513): Search
+06-24 15:26:36.359 E/HsmCoreServiceImpl( 1478): onTransact in code is: 103
+06-24 15:26:36.359 I/MediaProcessHandler( 1478): playingUids: 
+06-24 15:26:36.335 I/chatty  (  657): uid=1000(system) Binder:657_3 identical 5 lines
+06-24 15:26:36.335 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.359 D/ActivityManager(  657): Skipping, home or recents stack task: TaskRecord{333215f #15658 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+06-24 15:26:36.359 D/ActivityManager(  657): Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10a00000 cmp=io.appium.settings/.Settings
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,928][1032,2296]
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXPayEntryActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:flg=0x10800000 cmp=com.huawei.systemmanager/com.huawei.permissionmanager.ui.MainActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:act=com.huawei.action.VOICE_ASSISTANT flg=0x10800000 pkg=com.huawei.vassistant cmp=com.huawei.vassistant/.ui.main.VAssistantActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:act=com.huawei.android.launcher.action.ACCESS_SPLIT_SCREEN_APP cat=[android.intent.category.DEFAULT] flg=0x10804000 cmp=com.huawei.android.launcher/.splitscreen.SplitScreenAppActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:flg=0x10800000 pkg=com.excelliance.dualaid.b64 cmp=com.excelliance.dualaid.b64/com.excelliance.kxqp.sdk.PermissionRequestActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:act=android.intent.action.VIEW dat=content://com.excelliance.dualaid.fileProvider/external_storage_root/Download/apk/Multiple_64.apk typ=application/vnd.android.package-archive flg=0x10800001 cmp=com.android.packageinstaller/.InstallStart
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:flg=0x10800000 cmp=com.android.systemui/.usb.HwUsbDebuggingActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:act=android.deviceinfo.chooser.action.LAUNCH flg=0x10800000 hwFlg=0x100 pkg=com.android.settings cmp=com.android.settings/.deviceinfo.UsbConnModeChooserActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:flg=0x10800000 cmp=com.zol.android/.push.KeepLiveActivity
+06-24 15:26:36.360 D/ActivityManager(  657): Skipping intent:act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800300 cmp=com.android.settings/.FallbackHome
+06-24 15:26:36.388 I/zygote  (28742): Compiler allocated 4MB to compile boolean com.excelliance.kxqp.KXQPApplication.b(int)
+06-24 15:26:36.389 D/MainActivity(28712): instantiateItem: 2	android.widget.RelativeLayout{89db972 V.E...... ......I. 0,0-0,0}
+06-24 15:26:36.390 D/MainActivity(28712): initPage3: 
+06-24 15:26:36.393 V/WindowManager(  657): Checking 1 opening apps (frozen=false timeout=false)...
+06-24 15:26:36.393 V/WindowManager(  657): Check opening app=AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+06-24 15:26:36.395 V/HwPhoneWindowManager(  657): updateSystemUiColorLw window=Window{3ffecb3 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2},EmuiStyle=0,StatusBarColor=0xff000000,NavigationBarColor=0xff000000, mLastIsEmuiLightStyle=-1
+06-24 15:26:36.396 D/HwPhoneWindowManager(  657): Transact:setSystemUIColor to status bar service
+06-24 15:26:36.396 I/CommandQueue( 1513): updateBarBgColor
+06-24 15:26:36.396 D/CommandQueue( 1513): CommandQueue, setBarBackgroundColor
+06-24 15:26:36.397 V/WindowManager(  657): Checking 1 opening apps (frozen=false timeout=false)...
+06-24 15:26:36.397 V/WindowManager(  657): Check opening app=AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false
+06-24 15:26:36.398 D/TintManager( 1513): statusBarIconTint=#99FFFFFF,navigationBarIconTint=#FF000000
+06-24 15:26:36.400 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=679 
+06-24 15:26:36.400 I/GRALLOC (  679): 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:36.400 I/GRALLOC (  679): 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+06-24 15:26:36.401 I/chatty  (  679): uid=1000(system) allocator@2.0-s identical 1 line
+06-24 15:26:36.403 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=679 
+06-24 15:26:36.403 I/GRALLOC (  679): 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:36.403 I/GRALLOC (  679): 	 iova_size=8486912,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+06-24 15:26:36.404 D/BarTransitions.HwPhoneStatusBarView( 1513): MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+06-24 15:26:36.404 D/BarTransitions.HwPhoneStatusBarView( 1513): applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+06-24 15:26:36.405 D/MainActivity(28712): run: initPage3
+06-24 15:26:36.406 D/StatusBarIconController( 1513): setIconVisibility icon is null or visibility not change visibility=false
+06-24 15:26:36.407 V/MainActivity(28712): onWindowFocusChanged: true
+06-24 15:26:36.408 W/InputMethodManager(28712): startInputReason = 1
+06-24 15:26:36.409 I/OpenGLRenderer(28712): Initialized EGL, version 1.4
+06-24 15:26:36.409 D/OpenGLRenderer(28712): Swap behavior 2
+06-24 15:26:36.413 D/mali_winsys(28712): EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+06-24 15:26:36.413 E/vndksupport(28712): Could not load vendor/lib/egl/libGLES_mali_v2.so from sphal namespace: dlopen failed: library "vendor/lib/egl/libGLES_mali_v2.so" not found.
+06-24 15:26:36.414 W/InputMethodManager(28712): startInputReason = 5
+06-24 15:26:36.416 I/wangchen( 7035): SysInfo.getSysParam: orientation=1||config d=3.0,w=1080,h=1920||metrics d=3.0,w=1080,h=1920||sdk=26,bar_h=72
+06-24 15:26:36.416 I/KeymapLoader( 7035): w=1080 h=1920 ori=true appScale=3.3 s1=3.0
+06-24 15:26:36.419 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.431 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=679 
+06-24 15:26:36.431 I/GRALLOC (  679): 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:36.431 I/GRALLOC (  679): 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+06-24 15:26:36.440 D/WindowManager(  657): finishDrawingWindow: Window{3ffecb3 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2} mDrawState=DRAW_PENDING
+06-24 15:26:36.442 V/WindowManager(  657): Checking 1 opening apps (frozen=false timeout=false)...
+06-24 15:26:36.442 V/WindowManager(  657): Check opening app=AppWindowToken{c304940 token=Token{e024cc3 ActivityRecord{2c1f072 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t16008}}}: allDrawn=true startingDisplayed=false startingMoved=false isRelaunching()=false
+06-24 15:26:36.443 D/ImageWallpaper( 1513): onVisibilityChanged: mVisible, visible=true, false
+06-24 15:26:36.443 D/ImageWallpaper( 1513): Visibility changed to visible=false
+06-24 15:26:36.444 D/BarTransitions.HwPhoneStatusBarView( 1513): MODE_TRANSLUCENT -> MODE_TRANSPARENT animate=false
+06-24 15:26:36.444 D/BarTransitions.HwPhoneStatusBarView( 1513): applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_TRANSPARENT animate=false
+06-24 15:26:36.445 I/ActivityManager(  657): Displayed com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2: +188ms (total +359ms)
+06-24 15:26:36.453 I/WindowManager(  657): notifyAccessibilityButtonVisibilityChanged visible:false
+06-24 15:26:36.455 E/BufferQueueProducer(  710): [com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher#0] disconnect: not connected (req=1)
+06-24 15:26:36.455 W/libEGL  ( 2519): EGLNativeWindowType 0x74abe76010 disconnect failed
+06-24 15:26:36.459 W/dex2oat (28785): Using default instruction set features for ARM CPU variant (default) using conservative defaults
+06-24 15:26:36.459 I/dex2oat (28785): /system/bin/dex2oat -j4 --dex-file=/data/data/com.excelliance.dualaid/.platformcache/main.jar --output-vdex-fd=47 --oat-fd=48 --oat-location=/data/data/com.excelliance.dualaid/.platformcache/oat/arm/main.odex --compiler-filter=quicken
+06-24 15:26:36.459 I/cutils-trace(28785): atrace_init_once, trace_marker_path = /sys/kernel/debug/tracing/trace_marker
+06-24 15:26:36.460 D/BarTransitions.HwPhoneStatusBarView( 1513): MODE_TRANSPARENT -> MODE_TRANSLUCENT animate=false
+06-24 15:26:36.460 D/BarTransitions.HwPhoneStatusBarView( 1513): applyModeBackground oldMode=MODE_TRANSPARENT newMode=MODE_TRANSLUCENT animate=false
+06-24 15:26:36.461 D/BarTransitions.HwNavigationBarView( 1513): MODE_TRANSLUCENT -> MODE_OPAQUE animate=false
+06-24 15:26:36.461 D/BarTransitions.HwNavigationBarView( 1513): applyModeBackground oldMode=MODE_TRANSLUCENT newMode=MODE_OPAQUE animate=false
+06-24 15:26:36.472 V/WindowManager(  657): notifyAppStopped: AppWindowToken{d3a938b token=Token{377755a ActivityRecord{d5c9105 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t15658}}}
+06-24 15:26:36.472 E/WindowManager(  657): win=Window{68d6975 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+06-24 15:26:36.472 I/WindowManager(  657): Destroying surface Surface(name=com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:873 com.android.server.wm.HwWindowStateAnimator.destroySurfaceLocked:1006 com.android.server.wm.WindowState.destroyOrSaveSurfaceUnchecked:2990 com.android.server.wm.WindowState.destroySurface:2951 com.android.server.wm.AppWindowToken.destroySurfaces:654 com.android.server.wm.AppWindowToken.destroySurfaces:638 com.android.server.wm.AppWindowToken.notifyAppStopped:682 
+06-24 15:26:36.473 D/ActivityThread(28712): Remove activity client record, r= ActivityRecord{cbe2ddc token=android.os.BinderProxy@d13fa03 {com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity}} token= android.os.BinderProxy@d13fa03
+06-24 15:26:36.475 W/ActivityManager(  657): Sending non-protected broadcast huawei.action.floattasks.STATUS_BAR_STATE_CHANGED from system 1513:com.android.systemui/u0a39 pkg com.android.systemui
+06-24 15:26:36.475 W/HwKeyguardDragHelper( 1513): AnimationBlocked
+06-24 15:26:36.475 V/WindowManager(  657): removeAppToken: AppWindowToken{c04781a token=Token{b44e6c5 ActivityRecord{8da893c u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t16008}}} delayed=false Callers=com.android.server.wm.DisplayContent.removeAppToken:985 com.android.server.wm.AppWindowContainerController.removeContainer:348 com.android.server.am.ActivityRecord.removeWindowContainer:1039 com.android.server.am.ActivityStack.removeActivityFromHistoryLocked:4491 
+06-24 15:26:36.476 D/HwGameAssistantController(  657): pid=2519, uid=10056, foreground=false
+06-24 15:26:36.476 W/AwareLog(  657): SchedLevelBoost: onFgActivitiesChanged config not set!
+06-24 15:26:36.517 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:36.517 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:36.518 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:36.518 I/NetworkSpeedManagerEx( 1513): value=1848.6666speed = 1.8
+06-24 15:26:36.518 I/NetworkSpeedManagerEx( 1513): K/smIsShowLastSpeedValuefalse
+06-24 15:26:36.518 I/NetworkSpeedView( 1513): /update(), speed=1.8
+06-24 15:26:36.518 I/NetworkSpeedView( 1513): K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:36.626 I/HwNormalizedSpline(  657): getEyeProtectionBrightnessLevel lux =239.0, mDefaultBrightnessFromLux =68.645
+06-24 15:26:36.627 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:36.627 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:36.628 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:36.628 I/NetworkSpeedManagerEx( 1513): value=1848.6666speed = 1.8
+06-24 15:26:36.628 I/NetworkSpeedManagerEx( 1513): K/smIsShowLastSpeedValuefalse
+06-24 15:26:36.628 I/NetworkSpeedView( 1513): /update(), speed=1.8
+06-24 15:26:36.628 I/NetworkSpeedView( 1513): K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:36.758 I/TrafficMonitor(  657): update:rxPkts:10,txPkts:12,rxBytes:4102,txBytes:1215
+06-24 15:26:36.758 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:36.758 I/TrafficMonitor(  657): gettimer:interval=2000
+06-24 15:26:36.818 I/LogPowerAdapter( 1699): do thermal temperature:36action:app_ctrl value:0 to PG
+06-24 15:26:36.818 D/HwPolicyDispatcher( 1699): send ctrl to PG,0
+06-24 15:26:36.819 I/TClean  ( 1699): TClean trigger policy = 0
+06-24 15:26:36.819 I/HardwareAdapter( 1699): file:/sys/class/hw_power/charger/direct_charger/adaptor_detect, fileExists:false, fileCanRead:false
+06-24 15:26:36.819 I/HardwareAdapter( 1699): isOnlyChargingType adaptor_detect=null
+06-24 15:26:36.820 I/HardwareAdapter( 1699): isOnlyChargingType chargerType=0
+06-24 15:26:36.820 I/ash     ( 1699): not only power charing.
+06-24 15:26:36.859 I/dex2oat (28785): dex2oat took 400.560ms (973.879ms cpu) (threads: 4) arena alloc=147KB (151336B) java alloc=2MB (3143720B) native alloc=4MB (4694856B) free=2MB (2645176B)
+06-24 15:26:36.872 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:36.911 W/dex2oat (28791): Using default instruction set features for ARM CPU variant (default) using conservative defaults
+06-24 15:26:36.911 I/dex2oat (28791): /system/bin/dex2oat -j4 --dex-file=/data/data/com.excelliance.dualaid/.platformcache/kxqpplatform2.jar --output-vdex-fd=48 --oat-fd=49 --oat-location=/data/data/com.excelliance.dualaid/.platformcache/oat/arm/kxqpplatform2.odex --compiler-filter=quicken
+06-24 15:26:36.911 I/cutils-trace(28791): atrace_init_once, trace_marker_path = /sys/kernel/debug/tracing/trace_marker
+06-24 15:26:36.927 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=679 
+06-24 15:26:36.927 I/GRALLOC (  679): 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:36.927 I/GRALLOC (  679): 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+06-24 15:26:36.958 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:36.959 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:36.978 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=8486912,pid=679 
+06-24 15:26:36.978 I/GRALLOC (  679): 	 yuv=2,w=1080,h=1920,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:36.978 I/GRALLOC (  679): 	 iova_size=8486912,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1 
+06-24 15:26:37.111 I/dex2oat (28791): dex2oat took 200.566ms (426.603ms cpu) (threads: 4) arena alloc=62KB (63808B) java alloc=2MB (2283472B) native alloc=2MB (2311704B) free=2MB (2931176B)
+06-24 15:26:37.123 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.139 E/MemoryLeakMonitorManager(28742): MemoryLeakMonitor.jar is not exist!
+06-24 15:26:37.140 D/CrashHandler(28742): CrashHandler
+06-24 15:26:37.140 D/KXQPApplication(28742): run: initUserManager
+06-24 15:26:37.145 E/Minikin (28742): Could not get cmap table size!
+06-24 15:26:37.146 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:37.148 E/Thermal-daemon(  764): [battery] temp_new :36  temp_old :35
+06-24 15:26:37.149 I/ThermalService( 1699): Receive temperature change, type: 9, temp: 36 from thermald
+06-24 15:26:37.149 I/ThermalTrace_ThermalRaise( 1699): Battery:36
+06-24 15:26:37.149 E/Thermal-daemon(  764): Report temperature: [battery] temp :36  report_threshold:1
+06-24 15:26:37.152 E/Thermal-daemon(  764): [flash_led] temp_new :37  temp_old :38
+06-24 15:26:37.152 I/ThermalService( 1699): Receive temperature change, type: 3, temp: 37 from thermald
+06-24 15:26:37.153 E/Thermal-daemon(  764): Report temperature: [flash_led] temp :37  report_threshold:1
+06-24 15:26:37.153 D/HwThermalStateManager( 1699): Thermal type: 3 cur_temperature:37
+06-24 15:26:37.153 W/HwThermalStateManager( 1699): warning: no config thermal type:3 temperature:37
+06-24 15:26:37.155 D/AirPushService(28742): 第一次触发
+06-24 15:26:37.156 D/SmtServService(28742): MSG_LOAD_PLT GameUtil.isPtLoaded() = false
+06-24 15:26:37.157 I/HwCust  (28742): Constructor found for class android.net.HwCustConnectivityManagerImpl
+06-24 15:26:37.157 D/HwCust  (28742): Create obj success use class android.net.HwCustConnectivityManagerImpl
+06-24 15:26:37.157 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:8192, output hwFlags:0
+06-24 15:26:37.159 D/NetworkStateReceiver(28742): netWorkConnected = true
+06-24 15:26:37.160 D/AirPushUtils(28742): startPushInfo
+06-24 15:26:37.160 D/PMS1001 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.162 D/AirPushService(28742): 第一次设置Alarm
+06-24 15:26:37.162 D/AirPushService(28742): resetPushAlarm
+06-24 15:26:37.163 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.164 D/SmtServService(28742): pull info
+06-24 15:26:37.164 D/SmtServService(28742): diffTime = 1529825197164
+06-24 15:26:37.164 D/SmtServService(28742): pushInfoFromServer
+06-24 15:26:37.166 D/AirPushPreferences(28742): setLastPushTime
+06-24 15:26:37.178 D/StatisticsManager(28742): Query time diff:1529825197178
+06-24 15:26:37.178 I/zygote  (28742): Do partial code cache collection, code=27KB, data=31KB
+06-24 15:26:37.179 I/zygote  (28742): After code cache collection, code=11KB, data=18KB
+06-24 15:26:37.179 I/zygote  (28742): Increasing code cache capacity to 128KB
+06-24 15:26:37.180 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:37.219 D/StatisticsManager(28742): Query time diff:1529825197219
+06-24 15:26:37.222 D/launch-time-RU(28742): preload 24 classes cost 61ms
+06-24 15:26:37.224 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:37.241 D/StatisticsManager(28742): Query time diff:1529825197241
+06-24 15:26:37.251 D/AirPushDBHelper(28742): onCreate: pushitemnew
+06-24 15:26:37.252 I/zygote  (28712): Do partial code cache collection, code=23KB, data=24KB
+06-24 15:26:37.252 I/zygote  (28712): After code cache collection, code=23KB, data=24KB
+06-24 15:26:37.253 I/zygote  (28712): Increasing code cache capacity to 128KB
+06-24 15:26:37.253 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = vip
+06-24 15:26:37.253 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = update
+06-24 15:26:37.254 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = officalActivity
+06-24 15:26:37.254 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = news
+06-24 15:26:37.254 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = target
+06-24 15:26:37.254 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = batch
+06-24 15:26:37.254 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = skipTarget
+06-24 15:26:37.254 D/AirPushDBHelper(28742): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = thirdApp
+06-24 15:26:37.254 D/PushItem(28742): indexJson = {}
+06-24 15:26:37.254 D/AirPushService(28742): dataJson = {}
+06-24 15:26:37.255 V/AirPushService(28742): ver :e30%3D%0A
+06-24 15:26:37.255 D/VersionManager(28742): httpsRequest getURL = https://mto.multiopen.cn/pushmess.php?ver=466&mainver=231200&data=e30%3D%0A&wxCode=1321&subchid=1&sdkV=8.0.0&pkg=com.excelliance.dualaid&chid=10019&issl=1&compver=54302&wxVerName=6.6.7&vn=4.0.6&model=stf-al10&api=26&brand=honor&aid=f0c2426fc7560cf5
+06-24 15:26:37.255 D/NetworkSecurityConfig(28742): No Network Security Config specified, using platform default
+06-24 15:26:37.289 W/X509TrustManager(28742): checkServerTrusted: SignatureException:null
+06-24 15:26:37.290 W/X509TrustManager(28742): checkServerTrusted: SignatureException:error:04000073:RSA routines:OPENSSL_internal:DATA_TOO_LARGE_FOR_MODULUS
+06-24 15:26:37.290 D/GameUtil(28742): getSDKDataParam totalmem:5.60GB
+06-24 15:26:37.300 D/VersionManager(28742): httpsRequest getURL = https://folder.appota.cn/genuser.php?chid=10019&subchid=1&vc=466&type=4&data=tbCbI6ooWmOSi%2BhP8At3K55rUDjOXjUCTTE1Q7OqeVGzpiL1Dx8z2UKsv%2F2w066OKzL65VOc%2FHNVNculXvpkfbOlpWKAPUf5ryVSFynVNa8UucDwm5e36rJ6e2Kpu%2B5ykc4DARTfkZV4Ad5N96d4%2BjApQCWZuWchybogtHpbAp5JGb2oE4RYpIUqF8au1pxTSmwBdD5PozvBfX2%2Bj4RIW8u13M8ksM63bQoy2eR4WdDx%2BqZexoey63Hms3xqJyQkd3PFvljbOMDFV5%2BIsI0F%2B0cTu0Poz37kp440m4BdEnDxUpl%2F2SWQiyGENywr4rII2GFixGV6F3FTP2B6Iz%2Bp9XPgTT1Q8jOobYd0%2B7qf7bpZ2AyYZuCae%2FN%2FDrbd9ARIKpXrBwZ7SdplMO1nzphjQUqGRQMAlrO9Oa0Du6EV17%2FgN7YtgBzuJRHbP0GgVSdnIEYbOUnjg9adLEk2nhpRcwGYdX7bJ5%2FC%2FGVy8QMvFO%2FVJ5uAYH82VV6bvSarVkuFeotJT4yadRHbDkYGgVZfCDPVS%2FOPcQttSZtkoN3AjIdEC3B%2BjPtytpdTQYFvI9Ol&issl=1
+06-24 15:26:37.302 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:1024, output hwFlags:0
+06-24 15:26:37.302 I/ActivityManager(  657): Need to start process com.excelliance.dualaid:lbcore for provider ContentProviderInfo{name=com.excelliance.dualaid:com.excelliance.kxqp.platform.PluginManagerProvider className=com.excelliance.kxqp.platform.PluginManagerProvider}, callerApp: ProcessRecord{f32f21f 28742:com.excelliance.dualaid/u0a1421}
+06-24 15:26:37.302 V/ActivityManager(  657): startProcess: name=com.excelliance.dualaid:lbcore app=null knownToBeDead=false thread=null pid=-1
+06-24 15:26:37.302 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.309 I/        (28832): power log dlsym ok
+06-24 15:26:37.309 I/ActivityManager(  657): Start proc 28832:com.excelliance.dualaid:lbcore/u0a1421 for content provider com.excelliance.dualaid/com.excelliance.kxqp.platform.PluginManagerProvider
+06-24 15:26:37.309 V/ActivityManager_MU(  657): Waiting to start provider ContentProviderRecord{a7dd71e u0 com.excelliance.dualaid/com.excelliance.kxqp.platform.PluginManagerProvider} launchingApp=ProcessRecord{d440f59 28832:com.excelliance.dualaid:lbcore/u0a1421} caller pid= 28742
+06-24 15:26:37.311 I/zygote  (28832): Reinit property: dalvik.vm.checkjni= false
+06-24 15:26:37.321 D/ActivityThread(28832): ActivityThread,attachApplication
+06-24 15:26:37.322 D/ActivityManager(  657): ActivityManagerService,attachApplication,callingPid = 28832
+06-24 15:26:37.328 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:37.338 D/AirPushService(28742): result = {"period":"r","vip":{"index_":"","data":""},"update":{"index_":"","data":""},"officalActivity":{"index_":"","data":""},"news":{"index_":"","data":""},"target":{"index_":"","data":""},"batch":{"index_":"","data":""},"skipTarget":{"index_":"","data":""},"thirdApp":{"index_":"","data":""}}
+06-24 15:26:37.338 D/AirPushService(28742): handleCheckerSaveToDB
+06-24 15:26:37.338 D/AirPushUtils(28742): startDbOver
+06-24 15:26:37.339 W/X509TrustManager(28742): checkServerTrusted: SignatureException:null
+06-24 15:26:37.340 W/X509TrustManager(28742): checkServerTrusted: SignatureException:error:04000073:RSA routines:OPENSSL_internal:DATA_TOO_LARGE_FOR_MODULUS
+06-24 15:26:37.341 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:37.342 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x1,btStrd=256,size=4096,pid=679 
+06-24 15:26:37.342 I/GRALLOC (  679): 	 yuv=2,w=16,h=16,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:37.342 I/GRALLOC (  679): 	 iova_size=4096,conUsg=0x100,proUsg=0x100,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+06-24 15:26:37.344 D/SmtServService(28742): db write over
+06-24 15:26:37.345 D/HwFLClassLoader(28832): get used feature list :/feature/used-list failed!
+06-24 15:26:37.345 D/HwFLClassLoader(28832): USE_FEATURE_LIST had not init! 
+06-24 15:26:37.347 D/SmtServService(28742): gameCenterFirstStart = true
+06-24 15:26:37.357 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:37.403 D/launch-time-RU(28832): preload 24 classes cost 17ms
+06-24 15:26:37.409 D/VersionManager(28742): uid=353
+06-24 15:26:37.439 D/ActivityThread(28832): Loading provider com.excelliance.dualaid:com.excelliance.kxqp.platform.PluginManagerProvider: com.excelliance.kxqp.platform.PluginManagerProvider
+06-24 15:26:37.439 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.447 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:8192, output hwFlags:0
+06-24 15:26:37.451 D/PMS1001 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.455 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.457 D/PMS11421(  657): package:com.excelliance.dualaid:lbcore, input flags:0, output is null
+06-24 15:26:37.458 I/Bluetooth_framework(  657): BluetoothManagerService:Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@59d4815:true pid = 28832
+06-24 15:26:37.461 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:37.475 I/LBVMD-LBPMS(28832): LBVMRT: version 54302:543.02
+06-24 15:26:37.476 E/zygote  (28832): Invalid capacity given to EnsureLocalCapacity: 800
+06-24 15:26:37.488 I/HwCust  (28832): Constructor found for class android.net.HwCustConnectivityManagerImpl
+06-24 15:26:37.488 D/HwCust  (28832): Create obj success use class android.net.HwCustConnectivityManagerImpl
+06-24 15:26:37.497 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.505 V/HwWidgetFactory(28832): : successes to get AllImpl object and return....
+06-24 15:26:37.506 I/chatty  (  657): uid=1000(system) Binder:657_1 identical 1 line
+06-24 15:26:37.506 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.509 V/ActivityManager(  657): Successfully start provider ContentProviderRecord{a7dd71e u0 com.excelliance.dualaid/com.excelliance.kxqp.platform.PluginManagerProvider} launchingApp=ProcessRecord{d440f59 28832:com.excelliance.dualaid:lbcore/u0a1421} caller pid= 28742
+06-24 15:26:37.510 E/MemoryLeakMonitorManager(28832): MemoryLeakMonitor.jar is not exist!
+06-24 15:26:37.511 D/KXQPApplication(28832): run: initUserManager
+06-24 15:26:37.511 E/MemoryLeakMonitorManager(28832): MemoryLeakMonitor.jar is not exist!
+06-24 15:26:37.513 E/MemoryLeakMonitorManager(28742): MemoryLeakMonitor.jar is not exist!
+06-24 15:26:37.515 D/SmtServService(28742): MSG_LOAD_PLT after msg.obj
+06-24 15:26:37.515 E/Minikin (28832): Could not get cmap table size!
+06-24 15:26:37.515 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:37.517 V/ActivityManager(  657): Attempted to start a foreground service (ComponentInfo{com.excelliance.dualaid/com.excelliance.kxqp.platform.TrampolineService}) with a broken notification (no icon: Notification(channel=null pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+06-24 15:26:37.518 W/PackageParser(28832): No actions in intent filter at /data/app/com.huawei.hwid-Sc7ADDdoDYIYREll7tj_iw==/base.apk Binary XML file line #1412
+06-24 15:26:37.520 W/PackageParser(28832): No actions in intent filter at /data/app/com.huawei.hwid-Sc7ADDdoDYIYREll7tj_iw==/base.apk Binary XML file line #1680
+06-24 15:26:37.520 W/PackageParser(28832): No actions in intent filter at /data/app/com.huawei.hwid-Sc7ADDdoDYIYREll7tj_iw==/base.apk Binary XML file line #1694
+06-24 15:26:37.520 E/zygote  (28832): Invalid capacity given to EnsureLocalCapacity: 592
+06-24 15:26:37.554 D/HwNotificationManagerService(  657): recognize: tag=null, id=268435456, user=UserHandle{0}, pkg=com.excelliance.dualaid, uid=11421, callingPid=28832
+06-24 15:26:37.554 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.555 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect -> current num:1
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate start!
+06-24 15:26:37.555 W/SettingsEx( 2647): SettingsEx.Systemex.getInt deprecated use Settings.System.getInt instead ;callers=com.huawei.recsys.util.SystemUtil.getNotificationUpdateMode:169 com.huawei.recsys.util.SystemUtil.isAllowUpdate:104 com.huawei.recsys.controller.notification.http.NotificationUpdateController.startNotificationUpdate:85 
+06-24 15:26:37.555 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate mode:1
+06-24 15:26:37.555 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate isAllowUpdate:true
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentYear:2018
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentMonth:5
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentDay:24
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldYear:2018
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldMonth:5
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldDay:24
+06-24 15:26:37.555 E/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate time is valid no need request
+06-24 15:26:37.555 I/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect start!
+06-24 15:26:37.556 E/[HwRecSys]-Notification-NotificationController( 2647): HwDefaultLabels returnStr:107
+06-24 15:26:37.556 E/[HwRecSys]-Notification-NotificationController( 2647): getChinese paramValue is null!
+06-24 15:26:37.557 E/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect getLabelByRegRules label:107
+06-24 15:26:37.557 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect ->  finally remote Num - 1 !
+06-24 15:26:37.557 I/HwNotificationManagerService(  657): doNotificationCollect: pkg=com.excelliance.dualaid, uid=11421, hw_type=107, hw_btw=true
+06-24 15:26:37.557 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:268435456, output hwFlags:0
+06-24 15:26:37.558 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.558 W/NotificationRecord(  657): Use default channel, The importance is:2
+06-24 15:26:37.558 V/ActivityManager(  657): Attempted to start a foreground service (ComponentInfo{com.excelliance.dualaid/com.excelliance.kxqp.platform.TrampolineService$EmptyService}) with a broken notification (no icon: Notification(channel=null pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x40 color=0x00000000 vis=PRIVATE))
+06-24 15:26:37.560 D/HwNotificationManagerService(  657): recognize: tag=null, id=268435456, user=UserHandle{0}, pkg=com.excelliance.dualaid, uid=11421, callingPid=28832
+06-24 15:26:37.560 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.560 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect -> current num:1
+06-24 15:26:37.560 I/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate start!
+06-24 15:26:37.560 W/SettingsEx( 2647): SettingsEx.Systemex.getInt deprecated use Settings.System.getInt instead ;callers=com.huawei.recsys.util.SystemUtil.getNotificationUpdateMode:169 com.huawei.recsys.util.SystemUtil.isAllowUpdate:104 com.huawei.recsys.controller.notification.http.NotificationUpdateController.startNotificationUpdate:85 
+06-24 15:26:37.560 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate mode:1
+06-24 15:26:37.561 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate isAllowUpdate:true
+06-24 15:26:37.561 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentYear:2018
+06-24 15:26:37.561 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentMonth:5
+06-24 15:26:37.561 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentDay:24
+06-24 15:26:37.561 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldYear:2018
+06-24 15:26:37.561 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldMonth:5
+06-24 15:26:37.561 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldDay:24
+06-24 15:26:37.561 E/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate time is valid no need request
+06-24 15:26:37.561 I/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect start!
+06-24 15:26:37.561 E/[HwRecSys]-Notification-NotificationController( 2647): HwDefaultLabels returnStr:107
+06-24 15:26:37.562 E/[HwRecSys]-Notification-NotificationController( 2647): getChinese paramValue is null!
+06-24 15:26:37.563 E/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect getLabelByRegRules label:107
+06-24 15:26:37.563 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect ->  finally remote Num - 1 !
+06-24 15:26:37.563 I/HwNotificationManagerService(  657): doNotificationCollect: pkg=com.excelliance.dualaid, uid=11421, hw_type=107, hw_btw=true
+06-24 15:26:37.563 D/NotificationService(  657): mGameDndStatus is:false ,isGameDndSwitchOn is:false
+06-24 15:26:37.563 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:268435456, output hwFlags:0
+06-24 15:26:37.563 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.563 W/NotificationRecord(  657): Use default channel, The importance is:2
+06-24 15:26:37.568 I/AppManager( 1699): app:com.excelliance.dualaid Notification update time:107936417
+06-24 15:26:37.568 I/AppManager( 1699): app:com.excelliance.dualaid Notification persist:true  Ids:[268435456]
+06-24 15:26:37.573 D/NotificationService(  657): mGameDndStatus is:false ,isGameDndSwitchOn is:false
+06-24 15:26:37.575 W/zygote  (28832): Throwing OutOfMemoryError "EnsureLocalCapacity"
+06-24 15:26:37.583 W/IPMSI   (28832): request permission: com.huawei.permission.sec.MDM.v2
+06-24 15:26:37.583 W/IPMSI   (28832): request permission: com.huawei.authentication.HW_ACCESS_AUTH_SERVICE
+06-24 15:26:37.583 W/IPMSI   (28832): request permission: com.huawei.appmarket.provider.readPermission
+06-24 15:26:37.583 W/IPMSI   (28832): request permission: com.huawei.pushagent.permission.RICHMEDIA_PROVIDER
+06-24 15:26:37.585 D/PMS10039(  657): package:com.excelliance.dualaid, input flags:1024, output hwFlags:0
+06-24 15:26:37.587 D/PMS10039(  657): package:com.android.systemui, input flags:268436480, output hwFlags:0
+06-24 15:26:37.588 I/Pged-IPgedBinderService(  769): ****action is 2, pid num is 6***
+06-24 15:26:37.588 I/Pged-Freezer(  769): thawPids
+06-24 15:26:37.590 D/HwCust  ( 1513): Create obj success use class com.android.systemui.statusbar.notification.HwCustNotificationInflaterImpl
+06-24 15:26:37.592 I/FakeShadowView( 1513): radius18
+06-24 15:26:37.593 D/PgedBinderAdapter( 1699): unfrz ok, pid: [29457, 29531, 29347, 27318, 27449]
+06-24 15:26:37.594 D/PMS10039(  657): package:com.excelliance.dualaid, input flags:8704, output hwFlags:0
+06-24 15:26:37.595 D/PMS10039(  657): package:com.excelliance.dualaid, input flags:8192, output hwFlags:0
+06-24 15:26:37.596 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.602 I/chatty  ( 1513): uid=10039(u0_a39) com.android.systemui identical 2 lines
+06-24 15:26:37.602 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.603 W/ResourceType( 1513): Failure getting entry for 0x01040255 (t=3 e=597) (error -75)
+06-24 15:26:37.608 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.612 I/chatty  ( 1513): uid=10039(u0_a39) com.android.systemui identical 2 lines
+06-24 15:26:37.612 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.613 W/ResourceType( 1513): Failure getting entry for 0x01040255 (t=3 e=597) (error -75)
+06-24 15:26:37.625 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.629 I/chatty  ( 1513): uid=10039(u0_a39) com.android.systemui identical 2 lines
+06-24 15:26:37.629 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.630 W/ResourceType( 1513): Failure getting entry for 0x01040255 (t=3 e=597) (error -75)
+06-24 15:26:37.639 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.643 I/chatty  ( 1513): uid=10039(u0_a39) com.android.systemui identical 2 lines
+06-24 15:26:37.644 W/HwPhoneLayoutInflater( 1513): onCreateView : ClassNotFoundException, In this case we want to let the base class take a crack at it
+06-24 15:26:37.645 W/ResourceType( 1513): Failure getting entry for 0x01040255 (t=3 e=597) (error -75)
+06-24 15:26:37.651 D/PMS10039(  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:37.656 D/SmtServService(28742): MSG_LOAD_PLT GameUtil.isPtLoaded() = true
+06-24 15:26:37.656 D/HwPhoneStatusBar( 1513): No peeking: not allowed notification: 0|com.excelliance.dualaid|268435456|null|11421
+06-24 15:26:37.663 I/PhoneStatusBar( 1513): updateNotificationShade: total=73, active=73
+06-24 15:26:37.663 W/PhoneStatusBar( 1513): updateNotificationShade hasFaceDT: false; Detected:false
+06-24 15:26:37.664 V/PhoneStatusBar( 1513): mStackScroller size:11,activeCount:73, childCnt:15
+06-24 15:26:37.677 D/ReporterUtil( 1513):  e id:344 type:{pkg:com.excelliance.dualaid,hw_type:107,hw_btw:true,onGoing:true,importance:2}
+06-24 15:26:37.678 E/BDLog   ( 1686): BD.FilterImpl:com.android.systemui 344 times= 200 over threshold
+06-24 15:26:37.678 E/BDLog   ( 1686): BD.FilterImpl:com.android.systemui344 is illLegal
+06-24 15:26:37.679 W/HwKeyguardDragHelper( 1513): AnimationBlocked
+06-24 15:26:37.685 D/StatusBar( 1513): updateNotification(StatusBarNotification(pkg=com.excelliance.dualaid user=UserHandle{0} id=268435456 tag=null key=0|com.excelliance.dualaid|268435456|null|11421: Notification(channel=null pri=0 contentView=com.excelliance.dualaid/0x1090090 vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE)))
+06-24 15:26:37.690 D/HwPhoneStatusBar( 1513): No peeking: not allowed notification: 0|com.excelliance.dualaid|268435456|null|11421
+06-24 15:26:37.690 D/StatusBar( 1513): applyInPlace=true shouldPeek=false alertAgain=true
+06-24 15:26:37.690 D/StatusBar( 1513): reusing notification for key: 0|com.excelliance.dualaid|268435456|null|11421
+06-24 15:26:37.690 D/PMS10039(  657): package:com.excelliance.dualaid, input flags:8192, output hwFlags:0
+06-24 15:26:37.696 I/PhoneStatusBar( 1513): updateNotificationShade: total=73, active=73
+06-24 15:26:37.696 W/PhoneStatusBar( 1513): updateNotificationShade hasFaceDT: false; Detected:false
+06-24 15:26:37.697 V/PhoneStatusBar( 1513): mStackScroller size:11,activeCount:73, childCnt:15
+06-24 15:26:37.710 W/HwKeyguardDragHelper( 1513): AnimationBlocked
+06-24 15:26:37.910 D/HwWifiStatStore(  657): handleMessage : 200
+06-24 15:26:38.206 E/WifiHAL (  706): enter wifi_get_link_stats
+06-24 15:26:38.217 E/wificond(  765): Failed to get NL80211_STA_INFO_CNAHLOAD
+06-24 15:26:38.217 E/WificondControl(  657): Noise: -91, Snr: 0, Chload: -1
+06-24 15:26:38.218 D/HwWifiCHRStateManager(  657): handleMessage : 1001
+06-24 15:26:38.218 D/HwWifiCHRStateManager(  657): handleUpdateChannel:5805
+06-24 15:26:38.218 V/HwWifiServiceFactory(  657): get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@a390a53
+06-24 15:26:38.219 D/WifiScoreReport(  657): Score = 100, wifiConnectivityManagerEnabled = false, lowScoreCount = 0
+06-24 15:26:38.508 I/LogPowerAdapter( 1699): do thermal temperature:36action:app_ctrl value:0 to PG
+06-24 15:26:38.509 D/HwPolicyDispatcher( 1699): send ctrl to PG,0
+06-24 15:26:38.511 I/TClean  ( 1699): TClean trigger policy = 0
+06-24 15:26:38.511 I/HardwareAdapter( 1699): file:/sys/class/hw_power/charger/direct_charger/adaptor_detect, fileExists:false, fileCanRead:false
+06-24 15:26:38.511 I/HardwareAdapter( 1699): isOnlyChargingType adaptor_detect=null
+06-24 15:26:38.512 I/HardwareAdapter( 1699): isOnlyChargingType chargerType=0
+06-24 15:26:38.512 I/ash     ( 1699): not only power charing.
+06-24 15:26:38.720 D/HwArpVerifier(  657): performPollAndLog:
+06-24 15:26:38.725 D/hw_netstat(  657): total/12334/4568,com.excelliance.dualaid/11905/3724,com.android.vending/100/465,unknown:0/270/120,android.uid.system:1000/59/139,com.google.uid.shared:10089/0/120
+06-24 15:26:38.759 I/TrafficMonitor(  657): update:rxPkts:18,txPkts:28,rxBytes:8232,txBytes:3333
+06-24 15:26:38.759 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:38.759 I/TrafficMonitor(  657): gettimer:interval=2000
+06-24 15:26:38.962 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:38.964 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:39.134 D/HwQoEUtils(  657): onForegroundAppWifiSleepChange: config:false, sleeptime:-1,type: -1, appname:com.excelliance.dualaid:olle
+06-24 15:26:39.134 D/HwQoEUtils(  657): RealAppName:com.excelliance.dualaid
+06-24 15:26:39.134 D/HwQoEUtils(  657): APP type: -1 appName= com.excelliance.dualaid:olle
+06-24 15:26:39.134 D/HwQoEUtils(  657): RealAppName:com.excelliance.dualaid
+06-24 15:26:39.135 D/HwQoEUtils(  657): no game, APP_TYPE_GAME, appName =com.excelliance.dualaid:olle
+06-24 15:26:39.409 D/MainActivity(28712): onPageSelected: 1
+06-24 15:26:39.411 E/memtrack(26506): Couldn't load memtrack module
+06-24 15:26:39.411 W/android.os.Debug(26506): failed to get memory consumption info: -1
+06-24 15:26:39.519 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:39.519 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:39.520 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:39.521 I/NetworkSpeedManagerEx( 1513): value=3855.0speed = 3.8
+06-24 15:26:39.521 I/NetworkSpeedManagerEx( 1513): K/smIsShowLastSpeedValuefalse
+06-24 15:26:39.521 I/NetworkSpeedView( 1513): /update(), speed=3.8
+06-24 15:26:39.521 I/NetworkSpeedView( 1513): K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:39.568 E/memtrack(26506): Couldn't load memtrack module
+06-24 15:26:39.568 W/android.os.Debug(26506): failed to get memory consumption info: -1
+06-24 15:26:39.628 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:39.628 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:39.629 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:39.630 I/NetworkSpeedManagerEx( 1513): value=3855.0speed = 3.8
+06-24 15:26:39.630 I/NetworkSpeedManagerEx( 1513): K/smIsShowLastSpeedValuefalse
+06-24 15:26:39.630 I/NetworkSpeedView( 1513): /update(), speed=3.8
+06-24 15:26:39.630 I/NetworkSpeedView( 1513): K/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:39.757 I/TrafficMonitor(  657): expired arrive. level:-1
+06-24 15:26:39.757 I/TrafficMonitor(  657): during_ms:2001,period_ms:2000
+06-24 15:26:39.757 I/TrafficMonitor(  657): count:543,rx_sum:18,tx_sum:28,rxBytes:8232,during_ms:2001,rx_speed:4113.943028485757,tx_speed:1665.6671664167916,rto:0.6428571428571429
+06-24 15:26:39.757 D/HuaweiWifiWatchdogStateMachine(  657): speed: rxpkt:18, rxSpd:4113B/s, txpkt:28, txSpd:1665
+06-24 15:26:40.155 V/ActivityManager(  657): startProcess: name=com.excelliance.dualaid:smtcnt app=null knownToBeDead=true thread=null pid=-1
+06-24 15:26:40.156 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:40.169 I/ActivityManager(  657): Start proc 28878:com.excelliance.dualaid:smtcnt/u0a1421 for service com.excelliance.dualaid/com.excelliance.kxqp.SmtCntService
+06-24 15:26:40.170 I/        (28878): power log dlsym ok
+06-24 15:26:40.172 I/zygote  (28878): Reinit property: dalvik.vm.checkjni= false
+06-24 15:26:40.186 D/ActivityThread(28878): ActivityThread,attachApplication
+06-24 15:26:40.187 D/ActivityManager(  657): ActivityManagerService,attachApplication,callingPid = 28878
+06-24 15:26:40.198 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:40.219 W//system/bin/hwservicemanager(  416): Cannot open /odm/manifest.xml
+06-24 15:26:40.220 I/GRALLOC (  679): 	 shrFd=10,fmt=0x1,intFmt=0x1,btStrd=256,size=4096,pid=679 
+06-24 15:26:40.220 I/GRALLOC (  679): 	 yuv=2,w=16,h=16,Stride u=0 v=0,offset u=0 v=0 
+06-24 15:26:40.220 I/GRALLOC (  679): 	 iova_size=4096,conUsg=0x100,proUsg=0x100,	 strd=64,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1 
+06-24 15:26:40.224 D/HwFLClassLoader(28878): get used feature list :/feature/used-list failed!
+06-24 15:26:40.224 D/HwFLClassLoader(28878): USE_FEATURE_LIST had not init! 
+06-24 15:26:40.248 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+06-24 15:26:40.334 D/launch-time-RU(28878): preload 24 classes cost 33ms
+06-24 15:26:40.350 E/MemoryLeakMonitorManager(28878): MemoryLeakMonitor.jar is not exist!
+06-24 15:26:40.351 E/MemoryLeakMonitorManager(28878): MemoryLeakMonitor.jar is not exist!
+06-24 15:26:40.351 D/CrashHandler(28878): CrashHandler
+06-24 15:26:40.352 D/KXQPApplication(28878): run: initUserManager
+06-24 15:26:40.353 E/Minikin (28878): Could not get cmap table size!
+06-24 15:26:40.359 V/HwWidgetFactory(28878): : successes to get AllImpl object and return....
+06-24 15:26:40.360 D/HwGalleryCacheManagerImpl(28878): mIsEffect:false
+06-24 15:26:40.379 D/HwNotificationManagerService(  657): recognize: tag=null, id=268435456, user=UserHandle{0}, pkg=com.excelliance.dualaid, uid=11421, callingPid=28878
+06-24 15:26:40.380 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:40.380 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect -> current num:1
+06-24 15:26:40.381 I/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate start!
+06-24 15:26:40.381 W/SettingsEx( 2647): SettingsEx.Systemex.getInt deprecated use Settings.System.getInt instead ;callers=com.huawei.recsys.util.SystemUtil.getNotificationUpdateMode:169 com.huawei.recsys.util.SystemUtil.isAllowUpdate:104 com.huawei.recsys.controller.notification.http.NotificationUpdateController.startNotificationUpdate:85 
+06-24 15:26:40.381 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate mode:1
+06-24 15:26:40.381 D/SmtCntService(28878): onBind, mCntSvcHelper = com.excelliance.kxqp.SmtCntService$a@31abee5
+06-24 15:26:40.382 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate isAllowUpdate:true
+06-24 15:26:40.382 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentYear:2018
+06-24 15:26:40.382 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentMonth:5
+06-24 15:26:40.382 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentDay:24
+06-24 15:26:40.382 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldYear:2018
+06-24 15:26:40.382 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldMonth:5
+06-24 15:26:40.382 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldDay:24
+06-24 15:26:40.382 E/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate time is valid no need request
+06-24 15:26:40.382 I/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect start!
+06-24 15:26:40.383 D/SmtCntService(28878): onServiceConnected: mIssc = com.excelliance.kxqp.m$a$a@2ab3dba
+06-24 15:26:40.383 E/[HwRecSys]-Notification-NotificationController( 2647): HwDefaultLabels returnStr:107
+06-24 15:26:40.383 E/[HwRecSys]-Notification-NotificationController( 2647): title ticker content is null! need get add toUI
+06-24 15:26:40.385 V/HwWidgetFactory(28742): : successes to get AllImpl object and return....
+06-24 15:26:40.387 D/HwGalleryCacheManagerImpl(28742): mIsEffect:false
+06-24 15:26:40.391 W/ResourceType( 2647): Failure getting entry for 0x01040255 (t=3 e=597) (error -75)
+06-24 15:26:40.398 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:8192, output hwFlags:0
+06-24 15:26:40.399 I/[HwRecSys]-Notification-NotificationController( 2647): FrameLayout in
+06-24 15:26:40.399 I/chatty  ( 2647): uid=1000(system) Binder:2647_4 identical 3 lines
+06-24 15:26:40.399 I/[HwRecSys]-Notification-NotificationController( 2647): FrameLayout in
+06-24 15:26:40.399 E/[HwRecSys]-Notification-NotificationController( 2647): getChinese paramValue is null!
+06-24 15:26:40.399 I/chatty  ( 2647): uid=1000(system) Binder:2647_4 identical 1 line
+06-24 15:26:40.399 E/[HwRecSys]-Notification-NotificationController( 2647): getChinese paramValue is null!
+06-24 15:26:40.405 I/[HwRecSys]-Notification-NotificationController( 2647): requestNotificationModelClassify  word2vecModelPath:/data/user/0/com.huawei.recsys/files/notification/models/vector/vector.bin
+06-24 15:26:40.406 I/[HwRecSys]-Notification-NotificationController( 2647): requestNotificationModelClassify  textClsModelPath:/data/user/0/com.huawei.recsys/files/notification/models/ongoing/ongoingNtClsModel.bin
+06-24 15:26:40.406 I/[HwRecSys]-Notification-NotificationController( 2647): requestNotificationModelClassify  algName:LogisticRegression
+06-24 15:26:40.406 I/AiEngineJNI_v0.9( 2647): Calling requestNotificationClassifyDirect ...
+06-24 15:26:40.406 I/AiEngineJNI_v0.9( 2647): Convert input jstring texts to std::string ...
+06-24 15:26:40.406 I/AiEngineJNI_v0.9( 2647): Convert input jstring paths to std::string used 0 ms
+06-24 15:26:40.406 I/AiEngineJNI_v0.9( 2647): Getting model path used 0 ms
+06-24 15:26:40.406 I/AiEngineJNI_v0.9( 2647): Calling classifier ...
+06-24 15:26:40.406 I/AiEngineJNI_v0.9( 2647): Calling classifier ...
+06-24 15:26:40.419 I/Word2Vec( 2647): Load text feature model used 13 ms
+06-24 15:26:40.419 I/NotificationClassifier( 2647): Calc text features used 0 ms
+06-24 15:26:40.419 I/AlgorithmFactory( 2647): createAlgorithmInt ==> LogisticRegression ...
+06-24 15:26:40.419 I/LogisticRegression( 2647): start_predict
+06-24 15:26:40.420 I/AlgorithmFactory( 2647): destroyAlgorithm ==> LogisticRegression ...
+06-24 15:26:40.424 I/AiEngineJNI_v0.9( 2647): Cls used 17 ms
+06-24 15:26:40.424 I/AiEngineJNI_v0.9( 2647): Cls Label = 107, Prob = 0.973
+06-24 15:26:40.424 I/AiEngineJNI_v0.9( 2647): JNI used 17 ms
+06-24 15:26:40.424 I/[HwRecSys]-Notification-NotificationController( 2647): requestNotificationModelClassify  resultInt : 107
+06-24 15:26:40.424 I/[HwRecSys]-Notification-NotificationController( 2647): handleResult:107
+06-24 15:26:40.424 E/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect getLabelByModels label:107
+06-24 15:26:40.424 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect ->  finally remote Num - 1 !
+06-24 15:26:40.424 I/HwNotificationManagerService(  657): doNotificationCollect: pkg=com.excelliance.dualaid, uid=11421, hw_type=107, hw_btw=true
+06-24 15:26:40.424 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:268435456, output hwFlags:0
+06-24 15:26:40.425 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:40.425 W/NotificationRecord(  657): Use default channel, The importance is:1
+06-24 15:26:40.427 D/HwNotificationManagerService(  657): recognize: tag=null, id=268435456, user=UserHandle{0}, pkg=com.excelliance.dualaid, uid=11421, callingPid=28742
+06-24 15:26:40.429 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect -> current num:1
+06-24 15:26:40.429 I/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate start!
+06-24 15:26:40.428 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:40.429 W/SettingsEx( 2647): SettingsEx.Systemex.getInt deprecated use Settings.System.getInt instead ;callers=com.huawei.recsys.util.SystemUtil.getNotificationUpdateMode:169 com.huawei.recsys.util.SystemUtil.isAllowUpdate:104 com.huawei.recsys.controller.notification.http.NotificationUpdateController.startNotificationUpdate:85 
+06-24 15:26:40.429 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate mode:1
+06-24 15:26:40.430 I/[HwRecSys]SystemUtil( 2647): isAllowUpdate isAllowUpdate:true
+06-24 15:26:40.430 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentYear:2018
+06-24 15:26:40.430 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentMonth:5
+06-24 15:26:40.430 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> currentDay:24
+06-24 15:26:40.430 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldYear:2018
+06-24 15:26:40.430 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldMonth:5
+06-24 15:26:40.430 I/[HwRecSys]-Notification-NotificationUpdateController( 2647):  -> oldDay:24
+06-24 15:26:40.430 E/[HwRecSys]-Notification-NotificationUpdateController( 2647): startNotificationUpdate time is valid no need request
+06-24 15:26:40.430 I/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect start!
+06-24 15:26:40.431 E/[HwRecSys]-Notification-NotificationController( 2647): HwDefaultLabels returnStr:107
+06-24 15:26:40.431 D/NotificationService(  657): mGameDndStatus is:false ,isGameDndSwitchOn is:false
+06-24 15:26:40.432 E/[HwRecSys]-Notification-NotificationController( 2647): getChinese paramValue is null!
+06-24 15:26:40.435 E/[HwRecSys]-Notification-NotificationController( 2647): doNotificationCollect getLabelByRegRules label:107
+06-24 15:26:40.435 I/[HwRecSys]HwRecSysAidlService( 2647): doNotificationCollect ->  finally remote Num - 1 !
+06-24 15:26:40.436 I/HwNotificationManagerService(  657): doNotificationCollect: pkg=com.excelliance.dualaid, uid=11421, hw_type=107, hw_btw=true
+06-24 15:26:40.436 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:268435456, output hwFlags:0
+06-24 15:26:40.436 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:0, output hwFlags:0
+06-24 15:26:40.436 W/NotificationRecord(  657): Use default channel, The importance is:1
+06-24 15:26:40.449 D/StatusBar( 1513): updateNotification(StatusBarNotification(pkg=com.excelliance.dualaid user=UserHandle{0} id=268435456 tag=null key=0|com.excelliance.dualaid|268435456|null|11421: Notification(channel=null pri=-2 contentView=com.excelliance.dualaid/0x1090090 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+06-24 15:26:40.450 D/NotificationService(  657): mGameDndStatus is:false ,isGameDndSwitchOn is:false
+06-24 15:26:40.461 D/HwPhoneStatusBar( 1513): No peeking: not allowed notification: 0|com.excelliance.dualaid|268435456|null|11421
+06-24 15:26:40.461 D/StatusBar( 1513): applyInPlace=true shouldPeek=false alertAgain=true
+06-24 15:26:40.461 D/StatusBar( 1513): reusing notification for key: 0|com.excelliance.dualaid|268435456|null|11421
+06-24 15:26:40.464 D/PMS10039(  657): package:com.excelliance.dualaid, input flags:8192, output hwFlags:0
+06-24 15:26:40.480 I/PhoneStatusBar( 1513): updateNotificationShade: total=73, active=73
+06-24 15:26:40.480 W/PhoneStatusBar( 1513): updateNotificationShade hasFaceDT: false; Detected:false
+06-24 15:26:40.481 V/PhoneStatusBar( 1513): mStackScroller size:11,activeCount:73, childCnt:15
+06-24 15:26:40.512 W/HwKeyguardDragHelper( 1513): AnimationBlocked
+06-24 15:26:40.522 D/StatusBar( 1513): updateNotification(StatusBarNotification(pkg=com.excelliance.dualaid user=UserHandle{0} id=268435456 tag=null key=0|com.excelliance.dualaid|268435456|null|11421: Notification(channel=null pri=-2 contentView=com.excelliance.dualaid/0x1090090 vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)))
+06-24 15:26:40.533 D/HwPhoneStatusBar( 1513): No peeking: not allowed notification: 0|com.excelliance.dualaid|268435456|null|11421
+06-24 15:26:40.533 D/StatusBar( 1513): applyInPlace=true shouldPeek=false alertAgain=true
+06-24 15:26:40.533 D/StatusBar( 1513): reusing notification for key: 0|com.excelliance.dualaid|268435456|null|11421
+06-24 15:26:40.552 I/PhoneStatusBar( 1513): updateNotificationShade: total=73, active=73
+06-24 15:26:40.553 W/PhoneStatusBar( 1513): updateNotificationShade hasFaceDT: false; Detected:false
+06-24 15:26:40.553 V/PhoneStatusBar( 1513): mStackScroller size:11,activeCount:73, childCnt:15
+06-24 15:26:40.574 W/HwKeyguardDragHelper( 1513): AnimationBlocked
+06-24 15:26:40.760 I/TrafficMonitor(  657): update:rxPkts:0,txPkts:2,rxBytes:0,txBytes:100
+06-24 15:26:40.760 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:40.760 I/TrafficMonitor(  657): gettimer:interval=2000
+06-24 15:26:40.915 D/HwWifiStatStore(  657): handleMessage : 200
+06-24 15:26:41.059 D/SmartcareProc(  657): onSignalStrengthsChanged: signalStrength is: SignalStrength: 0 1955964583 0 255 0 0 32767 -1 32767 -1 -79 -4 13 -1 0 -1 false gw|lte , on sub: 0
+06-24 15:26:41.059 D/SmartcareProc(  657): SignalStrength update result, ss: SignalStrengthInfo:8749149 mGsmSignalStrength: -1 mWcdmaRscp: -1 mWcdmaEcio: 255 mLteRsrp: -79 mLteRsrq: -4 mCdmaDbm: -1 mCdmaEcio: -1 mEvdoDbm: 32767mEvdoEcio: -1mLteRssnr: 13
+06-24 15:26:41.061 I/MQoS    (  657): onSignal: mSubId=0,currDataSubID=0
+06-24 15:26:41.061 I/MQoS    (  657): received cell-signal:5
+06-24 15:26:41.064 I/HwMobileSignalController(0)( 1513): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+06-24 15:26:41.226 E/wificond(  765): Failed to get NL80211_STA_INFO_CNAHLOAD
+06-24 15:26:41.227 E/WificondControl(  657): Noise: -91, Snr: 0, Chload: -1
+06-24 15:26:41.227 D/HwWifiCHRStateManager(  657): handleMessage : 1001
+06-24 15:26:41.227 D/HwWifiCHRStateManager(  657): handleUpdateChannel:5805
+06-24 15:26:41.227 V/HwWifiServiceFactory(  657): get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@a390a53

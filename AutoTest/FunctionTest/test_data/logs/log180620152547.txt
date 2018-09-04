@@ -1,0 +1,179 @@
+--------- beginning of system
+06-24 15:26:42.273 I/chatty  (  657): uid=1000(system) Binder:657_1 expire 4 lines
+06-24 15:26:42.273 D/PMS11421(  657): package:com.excelliance.dualaid, input flags:128, output hwFlags:0
+--------- beginning of main
+06-24 15:26:43.729 D/HwArpVerifier(  657): performPollAndLog:
+06-24 15:26:43.738 D/hw_netstat(  657): total/1352/1549,com.excelliance.dualaid/1316/1289,com.google.uid.shared:10089/0/120,unknown:0/36/80,com.android.vending/0/60
+06-24 15:26:43.918 D/HwWifiStatStore(  657): handleMessage : 200
+06-24 15:26:43.971 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:43.973 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:44.244 E/WifiHAL (  706): enter wifi_get_link_stats
+06-24 15:26:44.261 E/wificond(  765): Failed to get NL80211_STA_INFO_CNAHLOAD
+06-24 15:26:44.262 E/WificondControl(  657): Noise: -91, Snr: 0, Chload: -1
+06-24 15:26:44.263 D/HwWifiCHRStateManager(  657): handleMessage : 1001
+06-24 15:26:44.263 D/HwWifiCHRStateManager(  657): handleUpdateChannel:5805
+06-24 15:26:44.263 V/HwWifiServiceFactory(  657): get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@a390a53
+06-24 15:26:44.264 D/WifiScoreReport(  657): Score = 100, wifiConnectivityManagerEnabled = false, lowScoreCount = 0
+06-24 15:26:44.739 E/memtrack(26506): Couldn't load memtrack module
+06-24 15:26:44.739 W/android.os.Debug(26506): failed to get memory consumption info: -1
+06-24 15:26:44.774 I/TrafficMonitor(  657): update:rxPkts:1,txPkts:3,rxBytes:78,txBytes:160
+06-24 15:26:44.774 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:44.774 I/TrafficMonitor(  657): gettimer:interval=2000
+06-24 15:26:44.894 E/memtrack(26506): Couldn't load memtrack module
+06-24 15:26:44.894 W/android.os.Debug(26506): failed to get memory consumption info: -1
+06-24 15:26:44.973 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:44.974 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:45.525 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:45.525 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:45.526 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:45.527 I/NetworkSpeedManagerEx( 1513): value=105.333336speed = 105
+06-24 15:26:45.527 I/NetworkSpeedManagerEx( 1513): B/smIsShowLastSpeedValuefalse
+06-24 15:26:45.527 I/NetworkSpeedView( 1513): /update(), speed=105
+06-24 15:26:45.527 I/NetworkSpeedView( 1513): B/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:45.717 I/ActivityManager(  657): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity} from uid 2000
+06-24 15:26:45.720 I/ActivityManager(  657): ActivityRecord info: ActivityInfo{7084511 com.excelliance.kxqp.ui.HelloActivity}
+06-24 15:26:45.729 I/PGServer( 1699): android calls fast hibernateApps
+06-24 15:26:45.729 I/AppFastHibernation( 1699): fast hibernate duration: 1500 reason: start activity
+06-24 15:26:45.729 I/Pged-IPgedBinderService(  769): ****action is 1, pid num is 6***
+06-24 15:26:45.730 I/Pged-Freezer(  769): freezePids
+06-24 15:26:45.730 I/Pged-Freezer(  769): Freeze process: 29457
+06-24 15:26:45.730 I/Pged-Freezer(  769): Freeze process: 29531
+06-24 15:26:45.730 I/Pged-Freezer(  769): Freeze process: 29347
+06-24 15:26:45.730 I/Pged-Freezer(  769): Freeze process: 27318
+06-24 15:26:45.731 I/Pged-Freezer(  769): Freeze process: 27449
+06-24 15:26:45.731 D/PMS1000 (  657): package:com.excelliance.dualaid, input flags:1, output hwFlags:0
+06-24 15:26:45.733 D/PgedBinderAdapter( 1699): frz ok, pid: [29457, 29531, 29347, 27318, 27449]
+06-24 15:26:45.760 I/TrafficMonitor(  657): expired arrive. level:-1
+06-24 15:26:45.760 I/TrafficMonitor(  657): during_ms:2002,period_ms:2000
+06-24 15:26:45.760 I/TrafficMonitor(  657): count:546,rx_sum:1,tx_sum:3,rxBytes:78,during_ms:2002,rx_speed:38.961038961038966,tx_speed:79.92007992007993,rto:0.3333333333333333
+06-24 15:26:45.760 D/HuaweiWifiWatchdogStateMachine(  657): speed: rxpkt:1, rxSpd:38B/s, txpkt:3, txSpd:79
+06-24 15:26:45.803 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:45.803 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:45.804 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:45.804 I/NetworkSpeedManagerEx( 1513): value=105.333336speed = 105
+06-24 15:26:45.804 I/NetworkSpeedManagerEx( 1513): B/smIsShowLastSpeedValuefalse
+06-24 15:26:45.804 I/NetworkSpeedView( 1513): /update(), speed=105
+06-24 15:26:45.804 I/NetworkSpeedView( 1513): B/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:46.777 I/TrafficMonitor(  657): update:rxPkts:4,txPkts:0,rxBytes:812,txBytes:0
+06-24 15:26:46.777 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:46.777 I/TrafficMonitor(  657): gettimer:interval=2000
+06-24 15:26:46.924 D/HwWifiStatStore(  657): handleMessage : 200
+06-24 15:26:47.072 D/SmartcareProc(  657): onSignalStrengthsChanged: signalStrength is: SignalStrength: 0 1955964583 0 255 0 0 32767 -1 32767 -1 -80 -4 13 -1 0 -1 false gw|lte , on sub: 0
+06-24 15:26:47.072 D/SmartcareProc(  657): SignalStrength update result, ss: SignalStrengthInfo:8749149 mGsmSignalStrength: -1 mWcdmaRscp: -1 mWcdmaEcio: 255 mLteRsrp: -80 mLteRsrq: -4 mCdmaDbm: -1 mCdmaEcio: -1 mEvdoDbm: 32767mEvdoEcio: -1mLteRssnr: 13
+06-24 15:26:47.072 I/MQoS    (  657): onSignal: mSubId=0,currDataSubID=0
+06-24 15:26:47.073 I/MQoS    (  657): received cell-signal:5
+06-24 15:26:47.082 I/HwMobileSignalController(0)( 1513): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:5 slaveLevel:-1
+06-24 15:26:47.234 I/Pged-IPgedBinderService(  769): ****action is 2, pid num is 6***
+06-24 15:26:47.234 I/Pged-Freezer(  769): thawPids
+06-24 15:26:47.243 D/PgedBinderAdapter( 1699): unfrz ok, pid: [29457, 29531, 29347, 27318, 27449]
+06-24 15:26:47.266 E/WifiHAL (  706): enter wifi_get_link_stats
+06-24 15:26:47.278 E/wificond(  765): Failed to get NL80211_STA_INFO_CNAHLOAD
+06-24 15:26:47.278 E/WificondControl(  657): Noise: -91, Snr: 0, Chload: -1
+06-24 15:26:47.279 D/HwWifiCHRStateManager(  657): handleMessage : 1001
+06-24 15:26:47.279 D/HwWifiCHRStateManager(  657): handleUpdateChannel:5805
+06-24 15:26:47.279 V/HwWifiServiceFactory(  657): get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@a390a53
+06-24 15:26:47.281 D/WifiScoreReport(  657): Score = 100, wifiConnectivityManagerEnabled = false, lowScoreCount = 0
+06-24 15:26:47.983 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:47.984 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:48.527 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:48.527 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:48.528 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:48.529 I/NetworkSpeedManagerEx( 1513): value=310.0speed = 310
+06-24 15:26:48.529 I/NetworkSpeedManagerEx( 1513): B/smIsShowLastSpeedValuefalse
+06-24 15:26:48.529 I/NetworkSpeedView( 1513): /update(), speed=310
+06-24 15:26:48.529 I/NetworkSpeedView( 1513): B/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:48.689 D/HwArpVerifier(  657): check_wifi_state_mode = 0 mCheckStateToken=6 token6
+06-24 15:26:48.691 D/wifiserviceimpl(  657): netmask =16777215
+06-24 15:26:48.705 D/HWMultiGW(  657): setGateWay 10.0.0.1
+06-24 15:26:48.779 I/TrafficMonitor(  657): update:rxPkts:3,txPkts:2,rxBytes:116,txBytes:80
+06-24 15:26:48.779 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:48.779 I/TrafficMonitor(  657): gettimer:interval=2000
+06-24 15:26:48.805 I/NetworkSpeedManagerEx( 1513): mIsStop = false
+06-24 15:26:48.805 I/NetworkSpeedManagerEx( 1513):  runInThread getTetherStats
+06-24 15:26:48.806 I/NetworkSpeedManagerEx( 1513):  runInUI refreshSpeed
+06-24 15:26:48.807 I/NetworkSpeedManagerEx( 1513): value=310.0speed = 310
+06-24 15:26:48.807 I/NetworkSpeedManagerEx( 1513): B/smIsShowLastSpeedValuefalse
+06-24 15:26:48.807 I/NetworkSpeedView( 1513): /update(), speed=310
+06-24 15:26:48.807 I/NetworkSpeedView( 1513): B/s parent class:class com.android.systemui.statusbar.HwSystemIcons
+06-24 15:26:48.985 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:48.985 W/ResourceType( 1513): No package identifier when getting value for resource number 0x00000000
+06-24 15:26:48.986 E/HwNotchUtils( 1513): setIconForView iconId is not found
+06-24 15:26:48.986 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:48.987 W/ResourceType( 1513): No package identifier when getting value for resource number 0x00000000
+06-24 15:26:48.987 E/HwNotchUtils( 1513): setIconForView iconId is not found
+06-24 15:26:49.234 E/WificondControl(  657): Noise: -91, Snr: 0, Chload: -1
+06-24 15:26:49.234 D/HwWifiCHRStateManager(  657): handleMessage : 1001
+06-24 15:26:49.234 D/HwWifiCHRStateManager(  657): handleUpdateChannel:5805
+06-24 15:26:49.234 V/HwWifiServiceFactory(  657): get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@a390a53
+06-24 15:26:49.239 D/HuaweiWifiWatchdogStateMachine(  657): LM mrssi=-39
+06-24 15:26:49.239 D/HuaweiWifiWatchdogStateMachine(  657): f2:9f:**:**:8f:43 current loss[-45]=0%, volume=33
+06-24 15:26:49.239 D/HuaweiWifiWatchdogStateMachine(  657): f2:9f:**:**:8f:43 history loss[-45]=0.02%, volume=23015637
+06-24 15:26:49.240 I/HuaweiWifiWatchdogStateMachine(  657): spd good count:0, add sc:0.0, rate:1.0
+06-24 15:26:49.240 D/HuaweiWifiWatchdogStateMachine(  657): high data flow: protection_counter = 0,  not_detect_counter = 264
+06-24 15:26:49.240 D/HuaweiWifiWatchdogStateMachine(  657): high data flow scenario: 0 --> 0 rx bytes =36KB
+06-24 15:26:49.240 I/HuaweiWifiWatchdogStateMachine(  657): current mHighDataFlowRate = 1.0
+06-24 15:26:49.240 I/HuaweiWifiWatchdogStateMachine(  657): POta txb txg rxg:0, 33, 0. Lr =0% Totpkt=33
+06-24 15:26:49.241 D/WiFi_PRO(  657): MSG_RETURN_AP_CURRY_RSSI rssi = -39
+06-24 15:26:49.241 I/QosMonitor(  657): queryRtt: rtt_type = 3
+06-24 15:26:49.241 D/HwWifiConnectivityMonitor(  657): ENTER: notifyTopUidTcpInfo, tx = 11, rx = 14, reTx = 0, uid = 11421, tr = 0.0
+06-24 15:26:49.241 I/HwQoEJNI(  657): send_cmd_kernel. begin
+06-24 15:26:49.241 D/HwWifiConnectivityMonitor(  657): ENTER: notifyTopUidTcpInfo, rtt = 144, rttPkts = 4, aveRtt = 36.0, app = com.excelliance.dualaid
+06-24 15:26:49.241 I/HwQoEJNI(  657): send_cmd_kernel. end
+06-24 15:26:49.241 I/QosMonitor(  657): postEventFromNative: msg=100,arg1=4,arg2=10
+06-24 15:26:49.241 D/HwUidTcpMonitor(  657): parseWlanUidTcpStatistics lastUidTcpStatInfo = [ mUid = 11421 mPacketName = com.excelliance.dualaid mSendSegs = 105 mResendSegs = 0 mRcvSegs = 95 ]
+06-24 15:26:49.241 D/HwUidTcpMonitor(  657): parseWlanUidTcpStatistics lastUidTcpStatInfo = [ mUid = 10089 mPacketName = com.google.uid.shared:10089 mSendSegs = 6927 mResendSegs = 0 mRcvSegs = 451 ]
+06-24 15:26:49.242 I/HwQoEJNI(  657): send_cmd_kernel. begin
+06-24 15:26:49.242 D/HwUidTcpMonitor(  657): parseWlanUidTcpStatistics lastUidTcpStatInfo = [ mUid = 10093 mPacketName = com.android.vending mSendSegs = 2454 mResendSegs = 1717 mRcvSegs = 191 ]
+06-24 15:26:49.242 I/HwQoEJNI(  657): send_cmd_kernel. end
+06-24 15:26:49.242 I/QosMonitor(  657): postEventFromNative: msg=100,arg1=0,arg2=10
+06-24 15:26:49.242 D/HwWifiConnectivityMonitor(  657): handleTopUidInternetStatusChanged, uid = 11421, status = 0
+06-24 15:26:49.242 D/HuaweiWifiWatchdogStateMachine(  657): f2:9f:**:**:8f:43 current RTT[-45]=144, volume=4
+06-24 15:26:49.242 D/HuaweiWifiWatchdogStateMachine(  657): f2:9f:**:**:8f:43 history RTT[-45]=237, volume=1682634
+06-24 15:26:49.242 D/HuaweiWifiWatchdogStateMachine(  657): setSampleRtt: rtt=144,rtt_pkts =4,rtt_when=6
+06-24 15:26:49.242 I/MQoS    (  657): rtt=156,tcp_tx_pkts=381333,tcp_rx_pkts=394489
+06-24 15:26:49.242 I/QosMonitor(  657): resetRtt: rtt_type = 3
+06-24 15:26:49.242 I/HwQoEJNI(  657): send_cmd_kernel. begin
+06-24 15:26:49.242 I/HwQoEJNI(  657): send_cmd_kernel. end
+06-24 15:26:49.243 I/MQoS    (  657): QOS_level:0(0),DataDisable;use level-0
+06-24 15:26:49.243 D/HuaweiWifiWatchdogStateMachine(  657): dumpTcpResult: len=10,rtt=156,rttPkt=18,rttWn=6,cgt=16,cgtWn=8707776
+06-24 15:26:49.243 I/MQoS    (  657): skip-low-Level:0(0),DataDisable;use level-0
+06-24 15:26:49.243 I/HuaweiWifiWatchdogStateMachine(  657): PTcp RTT:156, rtt pkt=18, tcp_rx=15, tcp_tx=19, tcp_reTran=1, rtRate=0.05
+06-24 15:26:49.243 D/HuaweiWifiWatchdogStateMachine(  657): isRttGood is good, AvgRtt = 156, TotPkt = 18
+06-24 15:26:49.243 D/HuaweiWifiWatchdogStateMachine(  657): mRssiBadCount =0, RSSI not bad.
+06-24 15:26:49.243 D/HuaweiWifiWatchdogStateMachine(  657): detectNetworkAvailable:hw.wifipro.dns_fail_count = 64
+06-24 15:26:49.243 D/HuaweiWifiWatchdogStateMachine(  657): detectNetworkAvailable: tcpRxPkts != 0, reset
+06-24 15:26:49.243 I/HuaweiWifiWatchdogStateMachine(  657): rs ota tcp lr rttvb bad: false, false, false, false, false; rsth:-75
+06-24 15:26:49.243 D/HuaweiWifiWatchdogStateMachine(  657): GSC:0, GSR:1.0, RSR:1.0, RTH:-75
+06-24 15:26:49.243 I/HuaweiWifiWatchdogStateMachine(  657): judge good link######, goodLinkLevel=3
+06-24 15:26:49.244 I/HuaweiWifiWatchdogStateMachine(  657): sendResultMsgToQM bssid:f2:9f:**:**:8f:43, qoslevel=3
+06-24 15:26:49.244 I/HuaweiWifiWatchdogStateMachine(  657): link good reported, good base rssi:-41
+06-24 15:26:49.244 D/WiFi_PRO_WifiProStateMachine(  657): onNetworkQosChange, currentWifiLevel == 3, wifiNoInternet = false, updateUiOnly = true
+06-24 15:26:49.244 D/HuaweiWifiWatchdogStateMachine(  657): goodperiod count=0, rb rttg sg =false, true, false
+06-24 15:26:49.244 D/HuaweiWifiWatchdogStateMachine(  657): bqeLevel = 3 rtt=156,rtt_pkts=18 speed=38 rssi=-39
+06-24 15:26:49.244 D/HuaweiWifiWatchdogStateMachine(  657): Enter updateQoeLevel level = 3
+06-24 15:26:49.244 D/HuaweiWifiWatchdogStateMachine(  657): updateQoeLevel current level equal to mLastDetectLevel, return
+06-24 15:26:49.244 I/HuaweiWifiWatchdogStateMachine(  657):  pkt chk not bad, reset sc to 0.
+06-24 15:26:49.244 D/HuaweiWifiWatchdogStateMachine(  657): ### mPktChkBadCnt=0
+06-24 15:26:49.707 D/HwArpVerifier(  657): getGateWayARPResponses: arp rtt = 8
+06-24 15:26:49.707 E/HwCHRWifiRSSIGroupSummery(  657): updatArpSummery mRSSI:-39  HwCHRWifiRSSIGroup [rssi_index=4, rtt_tcp_packets=0, rtt_tcp_duration=0, rtt_lan_duration=109, rtt_lan_failures=0, rtt_lan_succ=12, rtt_lan_max=12, rtt_lan_min=3,same_area_frequency=0,adjacent_area_frequency=0]
+06-24 15:26:49.741 D/HwArpVerifier(  657): There are 1 mac address for gateway 
+06-24 15:26:49.742 D/HwArpVerifier(  657): from HEART_CHECK transmit to state:HEART_CHECK
+06-24 15:26:49.742 D/HwArpVerifier(  657): msg what=124 arg1(token)=6 arg2(mode)=0 delay=30000
+06-24 15:26:49.742 D/HwArpVerifier(  657): performPollAndLog:
+06-24 15:26:49.745 D/hw_netstat(  657): total/1042/180,unknown:0/962/40,com.excelliance.dualaid/80/80,com.android.vending/0/60
+06-24 15:26:49.929 D/HwWifiStatStore(  657): handleMessage : 200
+06-24 15:26:49.987 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:49.988 D/NetWorkUtils( 1513): mVSimCurCardType is -1
+06-24 15:26:50.068 E/memtrack(26506): Couldn't load memtrack module
+06-24 15:26:50.068 W/android.os.Debug(26506): failed to get memory consumption info: -1
+06-24 15:26:50.224 E/memtrack(26506): Couldn't load memtrack module
+06-24 15:26:50.224 W/android.os.Debug(26506): failed to get memory consumption info: -1
+06-24 15:26:50.282 E/WifiHAL (  706): enter wifi_get_link_stats
+06-24 15:26:50.292 E/WificondControl(  657): Noise: -91, Snr: 0, Chload: -1
+06-24 15:26:50.292 D/HwWifiCHRStateManager(  657): handleMessage : 1001
+06-24 15:26:50.293 D/HwWifiCHRStateManager(  657): handleUpdateChannel:5805
+06-24 15:26:50.293 V/HwWifiServiceFactory(  657): get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@a390a53
+06-24 15:26:50.293 D/WifiScoreReport(  657): Score = 100, wifiConnectivityManagerEnabled = false, lowScoreCount = 0
+06-24 15:26:50.779 I/TrafficMonitor(  657): update:rxPkts:1,txPkts:0,rxBytes:36,txBytes:0
+06-24 15:26:50.779 I/TrafficMonitor(  657): start expired. level:-1
+06-24 15:26:50.780 I/TrafficMonitor(  657): gettimer:interval=2000

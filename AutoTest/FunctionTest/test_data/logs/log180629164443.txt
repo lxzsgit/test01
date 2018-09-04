@@ -1,0 +1,604 @@
+--------- beginning of main
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90000
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90100
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90200
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90300
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90001
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90101
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90201
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90301
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90002
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90102
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90302
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90003
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90103
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90303
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90004
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80000
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80003
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80103
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80203
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80303
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80004
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80104
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80204
+07-29 16:47:15.929 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80304
+07-29 16:47:15.929 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000960c; boundsInParent: Rect(0, 0 - 1080, 1386); boundsInScreen: Rect(0, 75 - 0, 1461); packageName: com.oppo.launcher; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:15.939 I/appium  ( 9879): Fetch time: 7ms
+07-29 16:47:15.959 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"android:id\/content\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/drag_layer\" instance=\"2\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"true\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/workspace\" instance=\"0\"><android.view.View index=\"1\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[0,75][1080,1461]\" resource-id=\"\" instance=\"1\"><android.widget.TextView index=\"0\" text=\"@微信\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[33,87][286,358]\" resource-id=\"\" instance=\"0\"\/><android.widget.TextView index=\"1\" text=\"日历\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[286,87][539,358]\" resource-id=\"\" instance=\"1\"\/><android.widget.TextView index=\"2\" text=\"时钟\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[539,87][792,358]\" resource-id=\"\" instance=\"2\"\/><android.widget.TextView index=\"3\" text=\"天气\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\
+07-29 16:47:15.989 I/appium  ( 9879): channel read invoked!
+07-29 16:47:15.989 I/appium  ( 9879): channel read: GET /wd/hub/session/dfbf3083-c5d8-4fdf-9522-7a886ccdaa53/source
+07-29 16:47:16.229 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 20
+07-29 16:47:16.279 D/PowerSaveService( 2572): PowerSaveReceiver EXTRA_STATUS: status = 2, lastCharging = true
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90000
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90100
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90200
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90300
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90001
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90101
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90201
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90301
+07-29 16:47:16.489 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90002
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90102
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90302
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90003
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90103
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90303
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90004
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80000
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80003
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80103
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80203
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80303
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80004
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80104
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80204
+07-29 16:47:16.499 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80304
+07-29 16:47:16.509 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000960c; boundsInParent: Rect(0, 0 - 1080, 1386); boundsInScreen: Rect(0, 75 - 0, 1461); packageName: com.oppo.launcher; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:16.519 I/appium  ( 9879): Fetch time: 14ms
+07-29 16:47:16.549 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"android:id\/content\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/drag_layer\" instance=\"2\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"true\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/workspace\" instance=\"0\"><android.view.View index=\"1\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[0,75][1080,1461]\" resource-id=\"\" instance=\"1\"><android.widget.TextView index=\"0\" text=\"@微信\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[33,87][286,358]\" resource-id=\"\" instance=\"0\"\/><android.widget.TextView index=\"1\" text=\"日历\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[286,87][539,358]\" resource-id=\"\" instance=\"1\"\/><android.widget.TextView index=\"2\" text=\"时钟\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[539,87][792,358]\" resource-id=\"\" instance=\"2\"\/><android.widget.TextView index=\"3\" text=\"天气\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\
+07-29 16:47:16.579 I/appium  ( 9879): channel read invoked!
+07-29 16:47:16.579 I/appium  ( 9879): channel read: GET /wd/hub/session/dfbf3083-c5d8-4fdf-9522-7a886ccdaa53/source
+07-29 16:47:16.759 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:16.759 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:16.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:16.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:16.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:16.759 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:16.759 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:16.759 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:16.759 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:16.769 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:16.769 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:16.769 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:16.769 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:16.769 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:16.769 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:16.769 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:16.769 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:16.769 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:16.779 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:16.779 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:16.779 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:16.779 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:16.779 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:16.779 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:16.779 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:16.779 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:16.779 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:16.859 W/Watchdog_N( 1243): !@WatchDog_666;
+07-29 16:47:17.019 D/        (  343): charger_monitor log_has_update will be set false
+07-29 16:47:17.079 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90000
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90100
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90200
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90300
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90001
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90101
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90201
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90301
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90002
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90102
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90302
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90003
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90103
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90303
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90004
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80000
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80003
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80103
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80203
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80303
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80004
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80104
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80204
+07-29 16:47:17.089 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80304
+07-29 16:47:17.099 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000960c; boundsInParent: Rect(0, 0 - 1080, 1386); boundsInScreen: Rect(0, 75 - 0, 1461); packageName: com.oppo.launcher; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:17.109 I/appium  ( 9879): Fetch time: 11ms
+07-29 16:47:17.139 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"android:id\/content\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/drag_layer\" instance=\"2\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"true\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/workspace\" instance=\"0\"><android.view.View index=\"1\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[0,75][1080,1461]\" resource-id=\"\" instance=\"1\"><android.widget.TextView index=\"0\" text=\"@微信\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[33,87][286,358]\" resource-id=\"\" instance=\"0\"\/><android.widget.TextView index=\"1\" text=\"日历\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[286,87][539,358]\" resource-id=\"\" instance=\"1\"\/><android.widget.TextView index=\"2\" text=\"时钟\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[539,87][792,358]\" resource-id=\"\" instance=\"2\"\/><android.widget.TextView index=\"3\" text=\"天气\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\
+07-29 16:47:17.139 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.139 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.139 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.139 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.139 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.139 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.139 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.139 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.139 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.149 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.149 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.149 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.149 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.149 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.149 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.149 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.149 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.149 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.189 I/appium  ( 9879): channel read invoked!
+07-29 16:47:17.189 I/appium  ( 9879): channel read: GET /wd/hub/session/dfbf3083-c5d8-4fdf-9522-7a886ccdaa53/source
+07-29 16:47:17.229 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 0
+07-29 16:47:17.289 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.289 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.289 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.289 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.289 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.289 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.289 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.289 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.289 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.349 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.349 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.349 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.349 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.349 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.349 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.349 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.349 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.349 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.369 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.369 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.369 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.369 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.369 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.369 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.369 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.369 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.369 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.419 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.419 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.419 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.419 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.419 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.419 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.419 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.419 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.419 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.429 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.429 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.429 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.429 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.429 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.429 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.429 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.429 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.429 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.529 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.529 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.529 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.529 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.529 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.529 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.529 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.529 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.529 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.589 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.589 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.589 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.589 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.589 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.589 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.589 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.589 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.589 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.609 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.609 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.609 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.609 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.609 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.609 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.609 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.609 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.609 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.629 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.629 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.629 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.629 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.629 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.629 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.629 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.629 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.629 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.649 D/AndroidRuntime(30978): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-29 16:47:17.649 D/AndroidRuntime(30978): CheckJNI is OFF
+07-29 16:47:17.679 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.679 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.679 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.679 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.679 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.679 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.679 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.679 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.679 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90000
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90100
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90200
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90300
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90001
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90101
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90201
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90301
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90002
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90102
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90302
+07-29 16:47:17.689 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90003
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90103
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90203
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90303
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce90004
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80000
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80003
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80103
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80203
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80303
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80004
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80104
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80204
+07-29 16:47:17.699 W/ResourceType( 2462): No known package when getting name for resource number 0x9ce80304
+07-29 16:47:17.699 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000960c; boundsInParent: Rect(0, 0 - 1080, 1386); boundsInScreen: Rect(0, 75 - 0, 1461); packageName: com.oppo.launcher; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_LONG_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:17.709 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.709 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.709 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.709 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.709 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.709 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.709 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.709 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.709 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.709 I/appium  ( 9879): Fetch time: 9ms
+07-29 16:47:17.739 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"android:id\/content\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/drag_layer\" instance=\"2\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"true\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.oppo.launcher:id\/workspace\" instance=\"0\"><android.view.View index=\"1\" text=\"\" class=\"android.view.View\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[0,75][1080,1461]\" resource-id=\"\" instance=\"1\"><android.widget.TextView index=\"0\" text=\"@微信\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[33,87][286,358]\" resource-id=\"\" instance=\"0\"\/><android.widget.TextView index=\"1\" text=\"日历\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[286,87][539,358]\" resource-id=\"\" instance=\"1\"\/><android.widget.TextView index=\"2\" text=\"时钟\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[539,87][792,358]\" resource-id=\"\" instance=\"2\"\/><android.widget.TextView index=\"3\" text=\"天气\" class=\"android.widget.TextView\" package=\"com.oppo.launcher\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\
+07-29 16:47:17.759 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.759 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.759 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.759 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.759 W/System.err( 9061): android.content.pm.PackageManager$NameNotFoundException
+07-29 16:47:17.759 W/System.err( 9061): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:119)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.c(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.b.q.a(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.pop.app.scene.e.h$1.a(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at com.estrongs.android.scanner.c.j$a$1.run(Unknown Source)
+07-29 16:47:17.759 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1115)
+07-29 16:47:17.759 W/System.err( 9061): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:590)
+07-29 16:47:17.759 W/System.err( 9061): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:17.769 I/appium  ( 9879): channel read invoked!
+07-29 16:47:17.769 I/appium  ( 9879): channel read: GET /wd/hub/session/dfbf3083-c5d8-4fdf-9522-7a886ccdaa53/source
+07-29 16:47:17.939 E/jniPro  (30978): protecteyesinit, dlopen dlhandle is null
+07-29 16:47:17.969 D/AndroidRuntime(30978): Calling main entry com.android.commands.am.Am
+--------- beginning of system
+07-29 16:47:17.979 I/ActivityManager( 1243): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity} from uid 2000 and from pid 30978 on display 0
+07-29 16:47:17.979 V/WindowManager( 1243): addAppToken: AppWindowToken{33b93975 token=Token{37d6b8ac ActivityRecord{3c00665f u0 com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity t433}}} to stack=1 task=433 at 0
+07-29 16:47:17.989 D/AndroidRuntime(30978): Shutting down VM
+07-29 16:47:18.009 I/ActivityManager( 1243): Start proc 31005:com.excelliance.dualaid:olle/u0a165 for activity com.excelliance.dualaid/com.excelliance.kxqp.ui.HelloActivity
+07-29 16:47:18.019 D/PackageReceiver( 2572): onReceive, action is: android.intent.action.OPPO_ROM_APP_CHANGE
+07-29 16:47:18.019 D/OppoNetworkControl_PackageReceiver( 2572): packageName = com.excelliance.dualaid
+07-29 16:47:18.019 D/OppoNetworkControl_PackageReceiver( 2572): hasShow = false
+07-29 16:47:18.019 D/PackageReceiver( 2572): networkType = 1, getCount = 1, getColumnCount = 1
+07-29 16:47:18.019 D/PackageReceiver( 2572): c.getInt(0) = 1, getColumnName(0) = wifi_state
+07-29 16:47:18.019 D/PackageReceiver( 2572): packageName = com.excelliance.dualaid, state = true
+07-29 16:47:18.059 D/CrashHandler(31005): CrashHandler
+07-29 16:47:18.059 D/KXQPApplication(31005): run: initUserManager
+07-29 16:47:18.069 D/HelloActivity(31005): Memory:21789M
+07-29 16:47:18.069 D/HelloActivity(31005): onCreate: true
+07-29 16:47:18.079 D/HelloActivity(31005): mIsNav = false
+07-29 16:47:18.089 D/HelloActivity(31005): defDisplayStyle:5
+07-29 16:47:18.099 D/HttpUtils(31005): getDownloadMode()
+07-29 16:47:18.109 D/NetUtils(31005): init inited = true
+07-29 16:47:18.109 D/HelloActivity(31005): enter Nav2
+07-29 16:47:18.109 I/ActivityManager( 1243): START u0 {pkg=com.excelliance.dualaid cmp=com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 (has extras)} from uid 10165 and from pid 31005 on display 0
+07-29 16:47:18.109 I/System.out(31005): sLuckyMoneyUrl = wx.gtimg.com/hongbao/
+07-29 16:47:18.119 V/WindowManager( 1243): addAppToken: AppWindowToken{60c222d token=Token{b257144 ActivityRecord{135ac257 u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2 t433}}} to stack=1 task=433 at 1
+07-29 16:47:18.149 V/WindowManager( 1243): Changing focus from Window{2e7bc0dc u0 com.oppo.launcher/com.oppo.launcher.Launcher EXITING} to null Callers=com.android.server.wm.WindowManagerService.relayoutWindow:3527 com.android.server.wm.Session.relayout:197 android.view.IWindowSession$Stub.onTransact:273 com.android.server.wm.Session.onTransact:130 
+07-29 16:47:18.159 W/X509TrustManager(31005): checkServerTrusted: SignatureException:null
+07-29 16:47:18.159 W/X509TrustManager(31005): checkServerTrusted: SignatureException:error:04067084:rsa routines:RSA_EAY_PUBLIC_DECRYPT:data too large for modulus
+07-29 16:47:18.159 E/Process (31005): android_os_Process_getProcessNameByPid pid is 31005
+07-29 16:47:18.159 E/Process (31005): android_os_Process_getProcessNameByPid value is ce.dualaid:olle
+07-29 16:47:18.159 D/NavActivity2(31005): onCreate
+07-29 16:47:18.179 E/test    (31005): hw notch screen flag api error
+07-29 16:47:18.189 E/test    (31005): hasNotchInScreen ClassNotFoundException
+07-29 16:47:18.189 E/ViewUtils(31005): setBgColor: view==null:top
+07-29 16:47:18.199 D/OpenGLRenderer(31005): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+07-29 16:47:18.199 V/WindowManager( 1243): Based on layer: Adding window Window{36eb0cba u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2} at 6 of 14
+07-29 16:47:18.219 D/HttpUtils(31005): getResponseCode():200
+07-29 16:47:18.219 D/WHEG    (31005): {"status":"0","controls":"","skip":"0"}
+07-29 16:47:18.239 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 10
+07-29 16:47:18.269 E/QueryController( 9879): Got null root node from accessibility - Retrying...
+07-29 16:47:18.389 D/MainActivity(31005): instantiateItem: 2	android.widget.RelativeLayout{22cedb27 V.E..... ......I. 0,0-0,0}
+07-29 16:47:18.389 D/MainActivity(31005): initPage3: 
+07-29 16:47:18.399 V/WindowManager( 1243): Changing focus from null to Window{36eb0cba u0 com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2} Callers=com.android.server.wm.WindowManagerService.relayoutWindow:3527 com.android.server.wm.Session.relayout:197 android.view.IWindowSession$Stub.onTransact:273 com.android.server.wm.Session.onTransact:130 
+07-29 16:47:18.409 I/Adreno-EGL(31005): <qeglDrvAPI_eglInitialize:379>: EGL 1.4 QUALCOMM build:  (I385e983e35)
+07-29 16:47:18.409 I/Adreno-EGL(31005): OpenGL ES Shader Compiler Version: E031.25.03.04
+07-29 16:47:18.409 I/Adreno-EGL(31005): Build Date: 03/09/16 Wed
+07-29 16:47:18.409 I/Adreno-EGL(31005): Local Branch: 
+07-29 16:47:18.409 I/Adreno-EGL(31005): Remote Branch: 
+07-29 16:47:18.409 I/Adreno-EGL(31005): Local Patches: 
+07-29 16:47:18.409 I/Adreno-EGL(31005): Reconstruct Branch: 
+07-29 16:47:18.419 I/OpenGLRenderer(31005): Initialized EGL, version 1.4
+07-29 16:47:18.429 D/OpenGLRenderer(31005): Enabling debug mode 0
+07-29 16:47:18.439 D/MainActivity(31005): run: initPage3
+07-29 16:47:18.449 V/MainActivity(31005): onWindowFocusChanged: true
+07-29 16:47:18.449 D/InputMethodManager( 2462): receive service's setActive call, active:false
+07-29 16:47:18.449 D/InputMethodManager(31005): receive service's setActive call, active:true
+07-29 16:47:18.449 I/InputMethodManager( 2462): handleMessage: MSG_SET_ACTIVE false, was true
+07-29 16:47:18.529 I/InputMethodManager(31005): handleMessage: MSG_SET_ACTIVE true, was false
+07-29 16:47:18.539 I/ActivityManager( 1243): Displayed com.excelliance.dualaid/com.excelliance.kxqp.swipe.NavActivity2: +406ms (total +4s121ms)
+07-29 16:47:18.549 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@80009a04; boundsInParent: Rect(0, 0 - 252, 276); boundsInScreen: Rect(369, 873 - 621, 1149); packageName: com.excelliance.dualaid; className: android.widget.ImageView; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: com.excelliance.dualaid:id/nav_add_prom; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:18.549 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000b08a; boundsInParent: Rect(0, 0 - 1080, 1800); boundsInScreen: Rect(1080, 0 - 1080, 1800); packageName: com.excelliance.dualaid; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:18.549 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000b44b; boundsInParent: Rect(0, 0 - 1080, 1800); boundsInScreen: Rect(2160, 0 - 1080, 1800); packageName: com.excelliance.dualaid; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:18.549 I/appium  ( 9879): Fetch time: 6ms
+07-29 16:47:18.569 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"android:id\/content\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"2\"><android.widget.RelativeLayout index=\"0\" text=\"\" class=\"android.widget.RelativeLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.excelliance.dualaid:id\/rl_guide_original\" instance=\"0\"><android.support.v4.view.ViewPager index=\"0\" text=\"\" class=\"android.support.v4.view.ViewPager\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"true\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.excelliance.dualaid:id\/vp_nav\" instance=\"0\"><android.widget.RelativeLayout index=\"0\" text=\"\" class=\"android.widget.RelativeLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"1\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"\/><android.widget.ImageView index=\"1\" text=\"\" class=\"android.widget.ImageView\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[345,303][990,1185]\" resource-id=\"com.excelliance.dualaid:id\/nav_chat\" instance=\"0\"\/><android.widget.ImageView index=\"2\" text=\"\" class=\"android.widget.ImageView\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable
+07-29 16:47:18.599 I/appium  ( 9879): channel read invoked!
+07-29 16:47:18.599 I/appium  ( 9879): channel read: GET /wd/hub/session/dfbf3083-c5d8-4fdf-9522-7a886ccdaa53/source
+07-29 16:47:18.959 I/dex2oat (30904): dex2oat took 3.724s (threads: 4) arena alloc=7MB java alloc=5MB native alloc=21MB free=1309KB
+07-29 16:47:18.999 I/art     (30796): Adjust thread count for runtime dex2oat
+07-29 16:47:19.019 I/dex2oat (31083): /system/bin/dex2oat --runtime-arg -classpath --runtime-arg  --instruction-set=arm --instruction-set-features=div,needfix_835769 --runtime-arg -Xrelocate --boot-image=/system/framework/boot.art --dex-file=/data/data/com.excelliance.dualaid/.platformcache/kxqpplatform2.jar --oat-fd=40 --oat-location=/data/data/com.excelliance.dualaid/.platformcache/kxqpplatform2.dex --runtime-arg -Xms64m --runtime-arg -Xmx512m -j4
+07-29 16:47:19.249 W/ProcessCpuTracker( 1243): Skipping unknown process pid 31094
+07-29 16:47:19.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 1
+07-29 16:47:19.819 I/dex2oat (31083): dex2oat took 798.077ms (threads: 4) arena alloc=253KB java alloc=3MB native alloc=3MB free=653KB
+07-29 16:47:19.849 W/ProcessCpuTracker( 4274): Skipping unknown process pid 31083
+07-29 16:47:19.889 D/KXQPApplication(30796): run: initUserManager
+07-29 16:47:19.889 D/CrashHandler(30796): CrashHandler
+07-29 16:47:19.889 D/ANR_LOG (30796): >>>Message Blocked in Main Thread for 5351 ms <<<
+07-29 16:47:19.889 D/ANR_LOG (30796): >>>History msg List is:
+07-29 16:47:19.889 D/ANR_LOG (30796): History msg <1> { when=-5s362ms what=110 target=android.app.ActivityThread$H }, cost = 5351 ms
+07-29 16:47:19.889 D/ANR_LOG (30796): History msg <2> { when=-12ms what=138 target=android.app.ActivityThread$H }, cost = 1 ms
+07-29 16:47:19.889 D/ANR_LOG (30796): >>>Current msg List in com.excelliance.dualaid is:
+07-29 16:47:19.889 D/ANR_LOG (30796): Current msg <1>  = { when=-1s758ms what=114 target=android.app.ActivityThread$H obj=CreateServiceData{token=android.os.BinderProxy@3927caf3 className=com.excelliance.kxqp.SmtServService packageName=com.excelliance.dualaid intent=null} }
+07-29 16:47:19.889 D/ANR_LOG (30796): Current msg <2>  = { when=-1s758ms what=115 target=android.app.ActivityThread$H obj=ServiceArgsData{token=android.os.BinderProxy@3927caf3 startId=1 args=Intent { act=com.excelliance.kxqp.action.init cmp=com.excelliance.dualaid/com.excelliance.kxqp.SmtServService (has extras) }} }
+07-29 16:47:19.889 D/ANR_LOG (30796): Current msg <3>  = { when=+9s993ms what=132 target=android.app.ActivityThread$H }
+07-29 16:47:19.889 D/ANR_LOG (30796): >>>MSG DUMP OVER<<<
+07-29 16:47:19.919 D/AirPushService(30796): 第一次触发
+07-29 16:47:19.919 D/SmtServService(30796): MSG_LOAD_PLT GameUtil.isPtLoaded() = false
+07-29 16:47:19.919 D/NetworkStateReceiver(30796): netWorkConnected = true
+07-29 16:47:19.919 D/AirPushUtils(30796): startPushInfo
+07-29 16:47:19.919 D/AirPushService(30796): 第一次设置Alarm
+07-29 16:47:19.919 D/AirPushService(30796): resetPushAlarm
+07-29 16:47:19.929 D/SmtServService(30796): pull info
+07-29 16:47:19.929 D/SmtServService(30796): diffTime = 1532854039932
+07-29 16:47:19.929 D/SmtServService(30796): pushInfoFromServer
+07-29 16:47:19.929 D/AirPushPreferences(30796): setLastPushTime
+07-29 16:47:19.939 D/StatisticsManager(30796): Query time diff:1532854039946
+07-29 16:47:19.979 D/launch-time-RU(30796): preload 24 classes cost 59ms
+07-29 16:47:19.989 D/StatisticsManager(30796): Query time diff:1532854039991
+07-29 16:47:19.999 D/StatisticsManager(30796): Query time diff:1532854040002
+07-29 16:47:20.009 D/AirPushDBHelper(30796): onCreate: pushitemnew
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = vip
+07-29 16:47:20.019 E/SQLiteLog(30796): (284) automatic index on pushitemnew(type)
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = update
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = officalActivity
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = news
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = target
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = batch
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = skipTarget
+07-29 16:47:20.019 D/AirPushDBHelper(30796): selection = type=? and index_=(select max(index_) from pushitemnew where type=?) , key = thirdApp
+07-29 16:47:20.019 D/PushItem(30796): indexJson = {}
+07-29 16:47:20.019 D/AirPushService(30796): dataJson = {}
+07-29 16:47:20.019 V/AirPushService(30796): ver :e30%3D%0A
+07-29 16:47:20.019 D/VersionManager(30796): httpsRequest getURL = https://mto.multiopen.cn/pushmess.php?sdkV=5.1.1&subchid=1&wxCode=1321&vn=4.1.2&data=e30%3D%0A&api=22&wxVerName=6.7.0&brand=oppo&mainver=231800&issl=1&compver=55302&aid=cd7885452bcb39af&pkg=com.excelliance.dualaid&ver=472&model=oppor7sm&chid=10022
+07-29 16:47:20.029 I/System.out(30796): sLuckyMoneyUrl = wx.gtimg.com/hongbao/
+07-29 16:47:20.029 D/GameUtil(30796): getSDKDataParam totalmem:3.56GB
+07-29 16:47:20.029 D/VersionManager(30796): httpsRequest getURL = http://folder.appota.cn/genuser.php?chid=10022&subchid=1&vc=472&type=4&data=wPyOfhv%2FgbRPUFTWi3G939tiF0lbr657muvcJJ01u4DgRbKcDPcB%2FyLfjsur%2F6S2QksyMTYaA7%2Fe8o6AIwYomo0b%2F5lh4dNGIKkGIvP%2Bpuuu0GIAupWujHt1n2VNkQQCv296GdDlFqWsg%2B2XW7HaJAWJnqzlGpQedmXDEkpUZOOMAE39wf3qn%2FxuHJs3KD13hQ%2Bud%2BGoiK%2BhmGXPoqREWjzkuhpYnAFg1KKYpZ74vauNTnp6vwPG8uWBEd4uTjOggbyovwZUOjqhAXbHyxGxa2mwBh6Z7s4LeI3GZfSRMjpF7UuuEyppfhGkGgQByH0VvX%2BuUhbkgGX7l9ZdVZcUqhrZ9E8%2Fh7wUGXiwShoZJRPvMQR8pnV1C5GLX1tzPWqRVRl63MHXgKHrtZGDyLQaRe2K4JFLcvZnEjKdwDSd3v1vtTJ%2Bwllv3BgzJxlR0u4s15ReAd2pJs75VEhdoQ5BcYkFhJElSE312nb1Oowmkkg%3D&issl=0
+07-29 16:47:20.079 W/X509TrustManager(30796): checkServerTrusted: SignatureException:null
+07-29 16:47:20.079 W/X509TrustManager(30796): checkServerTrusted: SignatureException:error:04067084:rsa routines:RSA_EAY_PUBLIC_DECRYPT:data too large for modulus
+07-29 16:47:20.099 D/VersionManager(30796): uid=10338333
+07-29 16:47:20.129 D/AirPushService(30796): result = {"period":"r","vip":{"index_":"","data":""},"update":{"index_":"","data":""},"officalActivity":{"index_":"","data":""},"news":{"index_":"","data":""},"target":{"index_":"","data":""},"batch":{"index_":"","data":""},"skipTarget":{"index_":"","data":""},"thirdApp":{"index_":"","data":""}}
+07-29 16:47:20.129 D/AirPushService(30796): handleCheckerSaveToDB
+07-29 16:47:20.129 D/AirPushUtils(30796): startDbOver
+07-29 16:47:20.129 D/SmtServService(30796): db write over
+07-29 16:47:20.129 D/SmtServService(30796): gameCenterFirstStart = true
+07-29 16:47:20.129 V/OppoAppStartupManager( 1243): com.excelliance.dualaid com.excelliance.kxqp.platform.PluginManagerProvider com.excelliance.dualaid
+07-29 16:47:20.139 W/CursorWrapperInner(30796): Cursor finalized without prior close(); xulinjieadd mContentProvider = android.content.ContentProvider$Transport@3cac5744; android.content.ContentResolver.query:551 android.content.ContentResolver.query:471 com.excelliance.staticslio.dao.DaoSupport.findAll:-1 com.excelliance.staticslio.daoimpl.AdvCtrolImpl.queryDBToMap:-1 com.excelliance.staticslio.e$6.run:-1 com.excelliance.staticslio.e.a:-1 
+07-29 16:47:20.169 I/ActivityManager( 1243): Start proc 31172:com.excelliance.dualaid:lbcore/u0a165 for content provider com.excelliance.dualaid/com.excelliance.kxqp.platform.PluginManagerProvider
+07-29 16:47:20.229 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 13
+07-29 16:47:20.299 D/launch-time-RU(31172): preload 24 classes cost 53ms
+07-29 16:47:20.389 D/ActivityThread(31172): Loading provider com.excelliance.dualaid:com.excelliance.kxqp.platform.PluginManagerProvider: com.excelliance.kxqp.platform.PluginManagerProvider
+07-29 16:47:20.409 E/CheckPermission(31172): _bluetooth code = 1 
+07-29 16:47:20.409 D/BluetoothManagerService( 1243): Message: 20
+07-29 16:47:20.409 D/BluetoothManagerService( 1243): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@2f6e15b:true
+07-29 16:47:20.409 E/CheckPermission(31172): _bluetooth code = 15 
+07-29 16:47:20.409 D/BluetoothManagerService( 1243): checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+07-29 16:47:20.419 D/SmtServService(30796): MSG_LOAD_PLT GameUtil.isPtLoaded() = false
+07-29 16:47:20.429 I/LBVMD-LBPMS(31172): LBVMRT: version 55302:553.02
+07-29 16:47:20.519 W/ContextImpl(31172): Failed to ensure directory: /storage/sdcard1/Android/data/com.excelliance.dualaid/files/lb_tombstones, /storage/sdcard1 has not mounted right now
+07-29 16:47:20.519 W/ContextImpl(31172): Failed to ensure directory: /storage/sdcard1/Android/data/com.excelliance.dualaid/files/lb_tombstones
+07-29 16:47:20.529 D/KXQPApplication(31172): run: initUserManager
+07-29 16:47:20.539 D/SmtServService(30796): MSG_LOAD_PLT after msg.obj
+07-29 16:47:20.539 V/NotificationService( 1243): notifications are disabled by AppOps for com.excelliance.dualaid
+07-29 16:47:20.539 E/NotificationService( 1243): Suppressing notification from package com.excelliance.dualaid by user request, and Notification.FLAG = 64, and when = 1532854040540
+07-29 16:47:20.549 E/art     (31172): Invalid capacity given to EnsureLocalCapacity: 592
+07-29 16:47:20.549 D/ActivityManager( 1243): ServiceRecord{2329ddf8 u0 com.excelliance.dualaid/com.excelliance.kxqp.platform.TrampolineService}(foregroundId=268435456) not foreground anymore
+07-29 16:47:20.549 V/NotificationService( 1243): notifications are disabled by AppOps for com.excelliance.dualaid
+07-29 16:47:20.549 E/NotificationService( 1243): Suppressing notification from package com.excelliance.dualaid by user request, and Notification.FLAG = 64, and when = 1532854040553
+07-29 16:47:20.619 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000b08a; boundsInParent: Rect(0, 0 - 1080, 1800); boundsInScreen: Rect(1080, 0 - 1080, 1800); packageName: com.excelliance.dualaid; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:20.619 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000b44b; boundsInParent: Rect(0, 0 - 1080, 1800); boundsInScreen: Rect(2160, 0 - 1080, 1800); packageName: com.excelliance.dualaid; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:20.619 I/appium  ( 9879): Fetch time: 8ms
+07-29 16:47:20.639 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"android:id\/content\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"2\"><android.widget.RelativeLayout index=\"0\" text=\"\" class=\"android.widget.RelativeLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.excelliance.dualaid:id\/rl_guide_original\" instance=\"0\"><android.support.v4.view.ViewPager index=\"0\" text=\"\" class=\"android.support.v4.view.ViewPager\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"true\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.excelliance.dualaid:id\/vp_nav\" instance=\"0\"><android.widget.RelativeLayout index=\"0\" text=\"\" class=\"android.widget.RelativeLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"1\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"\/><android.widget.ImageView index=\"1\" text=\"\" class=\"android.widget.ImageView\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[345,303][990,1185]\" resource-id=\"com.excelliance.dualaid:id\/nav_chat\" instance=\"0\"\/><android.widget.ImageView index=\"2\" text=\"\" class=\"android.widget.ImageView\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable
+07-29 16:47:20.659 I/appium  ( 9879): channel read invoked!
+07-29 16:47:20.659 I/appium  ( 9879): channel read: GET /wd/hub/session/dfbf3083-c5d8-4fdf-9522-7a886ccdaa53/source
+07-29 16:47:20.919 D/SmtServService(30796): MSG_LOAD_PLT GameUtil.isPtLoaded() = true
+07-29 16:47:21.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 0
+07-29 16:47:21.279 D/PowerSaveService( 2572): PowerSaveReceiver EXTRA_STATUS: status = 2, lastCharging = true
+07-29 16:47:21.449 D/MainActivity(31005): onPageSelected: 1
+07-29 16:47:22.019 D/        (  343): charger_monitor log_has_update will be set false
+07-29 16:47:22.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 2
+07-29 16:47:22.959 I/ActivityManager( 1243): Start proc 31304:com.excelliance.dualaid:smtcnt/u0a165 for service com.excelliance.dualaid/com.excelliance.kxqp.SmtCntService
+07-29 16:47:23.149 D/launch-time-RU(31304): preload 24 classes cost 70ms
+07-29 16:47:23.239 D/CrashHandler(31304): CrashHandler
+07-29 16:47:23.239 D/KXQPApplication(31304): run: initUserManager
+07-29 16:47:23.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 0
+07-29 16:47:23.249 V/NotificationService( 1243): notifications are disabled by AppOps for com.excelliance.dualaid
+07-29 16:47:23.249 E/NotificationService( 1243): Suppressing notification from package com.excelliance.dualaid by user request, and Notification.FLAG = 64, and when = 1532854043255
+07-29 16:47:23.249 D/SmtCntService(31304): onBind, mCntSvcHelper = com.excelliance.kxqp.SmtCntService$a@351558e0
+07-29 16:47:23.259 D/SmtCntService(31304): onServiceConnected: mIssc = com.excelliance.kxqp.m$a$a@386b4799
+07-29 16:47:23.259 V/NotificationService( 1243): notifications are disabled by AppOps for com.excelliance.dualaid
+07-29 16:47:23.259 E/NotificationService( 1243): Suppressing notification from package com.excelliance.dualaid by user request, and Notification.FLAG = 64, and when = 1532854043262
+07-29 16:47:23.629 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000acc9; boundsInParent: Rect(0, 0 - 1080, 1800); boundsInScreen: Rect(0, 0 - 0, 1800); packageName: com.excelliance.dualaid; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:23.639 I/appium  ( 9879): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@8000b44b; boundsInParent: Rect(0, 0 - 1080, 1800); boundsInScreen: Rect(1080, 0 - 1080, 1800); packageName: com.excelliance.dualaid; className: android.widget.RelativeLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null]
+07-29 16:47:23.639 I/appium  ( 9879): Fetch time: 5ms
+07-29 16:47:23.649 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"android:id\/content\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"2\"><android.widget.RelativeLayout index=\"0\" text=\"\" class=\"android.widget.RelativeLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.excelliance.dualaid:id\/rl_guide_original\" instance=\"0\"><android.support.v4.view.ViewPager index=\"0\" text=\"\" class=\"android.support.v4.view.ViewPager\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"true\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"com.excelliance.dualaid:id\/vp_nav\" instance=\"0\"><android.widget.RelativeLayout index=\"1\" text=\"\" class=\"android.widget.RelativeLayout\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"1\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1800]\" resource-id=\"\" instance=\"0\"\/><android.widget.ImageView index=\"1\" text=\"\" class=\"android.widget.ImageView\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[330,504][999,684]\" resource-id=\"com.excelliance.dualaid:id\/nav_two_item2\" instance=\"0\"\/><android.widget.ImageView index=\"2\" text=\"\" class=\"android.widget.ImageView\" package=\"com.excelliance.dualaid\" content-desc=\"\" checkable=\"false\" checked=\"false\" click
+07-29 16:47:23.699 I/appium  ( 9879): channel read invoked!
+07-29 16:47:23.699 I/appium  ( 9879): channel read: POST /wd/hub/session/dfbf3083-c5d8-4fdf-9522-7a886ccdaa53/element
+07-29 16:47:23.699 I/appium  ( 9879): Find element command
+07-29 16:47:23.699 D/appium  ( 9879): payload: {"strategy":"id","selector":"com.excelliance.dualaid:id/bt_explore","context":"","multiple":false}
+07-29 16:47:23.699 I/appium  ( 9879): find element command using 'id' with selector 'com.excelliance.dualaid:id/bt_explore'.
+07-29 16:47:24.189 D/MainActivity(31005): onPageSelected: 2
+07-29 16:47:24.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 2
+07-29 16:47:24.429 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE0
+07-29 16:47:24.429 D/MainActivity(31005): onAnimationStart: NavValueAnimator.TYPE_PTHREE
+07-29 16:47:24.439 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE0
+07-29 16:47:24.459 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE1
+07-29 16:47:24.479 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE2
+07-29 16:47:24.489 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE3
+07-29 16:47:24.509 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE4
+07-29 16:47:24.529 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE6
+07-29 16:47:24.549 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE7
+07-29 16:47:24.569 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE8
+07-29 16:47:24.579 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE9
+07-29 16:47:24.599 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE11
+07-29 16:47:24.609 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE12
+07-29 16:47:24.629 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE13
+07-29 16:47:24.649 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE14
+07-29 16:47:24.659 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE16
+07-29 16:47:24.679 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE17
+07-29 16:47:24.699 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE18
+07-29 16:47:24.709 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE19
+07-29 16:47:24.729 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE21
+07-29 16:47:24.749 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE22
+07-29 16:47:24.769 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE23
+07-29 16:47:24.779 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE24
+07-29 16:47:24.799 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE25
+07-29 16:47:24.819 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE27
+07-29 16:47:24.829 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE28
+07-29 16:47:24.849 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE29
+07-29 16:47:24.869 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE30
+07-29 16:47:24.879 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE32
+07-29 16:47:24.899 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE33
+07-29 16:47:24.919 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE34
+07-29 16:47:24.929 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE35
+07-29 16:47:24.949 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE37
+07-29 16:47:24.969 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE38
+07-29 16:47:24.989 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE39
+07-29 16:47:24.989 V/AlarmManager( 1243): Triggering alarm #0: Alarm{266ed74b type 1 when 1532854039998 com.excelliance.dualaid com.action.broadreceiver.schedulermanager}
+07-29 16:47:24.999 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE40
+07-29 16:47:25.009 V/AlarmManager( 1243): Triggering alarm #0: Alarm{31ccb528 type 1 when 1532854040004 com.excelliance.dualaid com.action.broadreceiver.schedulermanager}
+07-29 16:47:25.009 D/GetCtrlInfoTask(30796): debugMode = false
+07-29 16:47:25.019 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE41
+07-29 16:47:25.039 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE43
+07-29 16:47:25.049 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE44
+07-29 16:47:25.069 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE45
+07-29 16:47:25.069 D/GetCtrlInfoTask(30796): getResponseCode = 200
+07-29 16:47:25.069 D/GetCtrlInfoTask(30796): result = {"ctrl_info":[]}
+07-29 16:47:25.089 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE46
+07-29 16:47:25.099 D/AdvCtrlInfoTask(30796): getResponseCode = 200
+07-29 16:47:25.099 D/AdvCtrlInfoTask(30796): result = {"ctrl_info":[{"stat_id":"5000","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"4001","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"3001","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"4002","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"5100","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"8000","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"7000","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"4000","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"3000","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"},{"stat_id":"6000","appid":"10000","behav":"65535","valid_time":"1905631200","upload_cycle":"1"}]}
+07-29 16:47:25.099 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE48
+07-29 16:47:25.119 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE49
+07-29 16:47:25.139 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE50
+07-29 16:47:25.149 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE51
+07-29 16:47:25.169 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE53
+07-29 16:47:25.189 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE54
+07-29 16:47:25.209 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE55
+07-29 16:47:25.219 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE56
+07-29 16:47:25.239 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE58
+07-29 16:47:25.239 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 11
+07-29 16:47:25.259 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE59
+07-29 16:47:25.269 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE60
+07-29 16:47:25.289 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE61
+07-29 16:47:25.309 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE62
+07-29 16:47:25.319 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE64
+07-29 16:47:25.339 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE65
+07-29 16:47:25.359 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE66
+07-29 16:47:25.369 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE67
+07-29 16:47:25.389 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE69
+07-29 16:47:25.409 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE70
+07-29 16:47:25.419 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE71
+07-29 16:47:25.419 W/WindowManager( 1243): Attempted to remove non-existing token: android.os.Binder@169d958
+07-29 16:47:25.439 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE72
+07-29 16:47:25.459 D/MainActivity(31005): onAnimationUpdate: NavValueAnimator.TYPE_PTHREE73
+07-29 16:47:25.459 D/MainActivity(31005): onAnimationEnd: 2	0.0
+07-29 16:47:25.889 E/appium  ( 9879): Unable wait for AUT to idle
+07-29 16:47:25.889 E/appium  ( 9879): Unable wait for AUT to idle
+07-29 16:47:25.899 E/appium  ( 9879): Exception while handling action in: io.appium.uiautomator2.handler.FindElement
+07-29 16:47:25.899 E/appium  ( 9879): java.lang.IllegalStateException: UiAutomation not connected!
+07-29 16:47:25.899 E/appium  ( 9879): 	at android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:919)
+07-29 16:47:25.899 E/appium  ( 9879): 	at android.app.UiAutomation.getRootInActiveWindow(UiAutomation.java:413)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.model.internal.CustomUiDevice.getWindowRoots(CustomUiDevice.java:211)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.model.internal.CustomUiDevice.findObject(CustomUiDevice.java:87)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:147)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:208)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:199)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+07-29 16:47:25.899 E/appium  ( 9879): 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+07-29 16:47:25.899 E/appium  ( 9879): 	at java.lang.Thread.run(Thread.java:818)
+07-29 16:47:25.899 I/appium  ( 9879): AppiumResponse: {"sessionId":"dfbf3083-c5d8-4fdf-9522-7a886ccdaa53","status":13,"value":"java.lang.IllegalStateException: UiAutomation not connected!\n\tat android.app.UiAutomation.throwIfNotConnectedLocked(UiAutomation.java:919)\n\tat android.app.UiAutomation.getRootInActiveWindow(UiAutomation.java:413)\n\tat io.appium.uiautomator2.model.internal.CustomUiDevice.getWindowRoots(CustomUiDevice.java:211)\n\tat io.appium.uiautomator2.model.internal.CustomUiDevice.findObject(CustomUiDevice.java:87)\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:147)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:56)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:208)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:199)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)\n\tat io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)\n\tat io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)\n\tat io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)\n\tat io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:514)\n\tat io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:468)\n\tat io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)\n\tat io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)\n\tat io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)\n\tat java.lang.Thread.run(Thread.java:818)\n"}
+07-29 16:47:26.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 0
+07-29 16:47:26.249 D/SmtCntService(31304): handleMessage: msg = 3
+07-29 16:47:26.279 D/PowerSaveService( 2572): PowerSaveReceiver EXTRA_STATUS: status = 2, lastCharging = true
+07-29 16:47:27.019 D/        (  343): charger_monitor log_has_update will be set false
+07-29 16:47:27.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 0
+07-29 16:47:27.769 I/art     ( 9879): Background partial concurrent mark sweep GC freed 363775(8MB) AllocSpace objects, 4(112KB) LOS objects, 53% free, 6MB/14MB, paused 1.455ms total 107.861ms
+07-29 16:47:28.249 D/NetworkLinkMonitor( 1243): RSSI_PKTCNT_FETCH_SUCCEEDED--dtotal= 0
