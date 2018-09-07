@@ -86,21 +86,21 @@ class AppiumInit(object):
             return None
 
     def overlay_launch(self):
-        # jo = self.judge_open()
-        # if jo is True:
-        try:
-            driver.find_element_by_android_uiautomator('new UiSelector().text("打开")').click()
-            print("覆盖安装后启动")
-        except BaseException:
-            return False
-        return True
-        # elif jo is False:
-        #     try:
-        #         driver.find_element_by_android_uiautomator('new UiSelector().text("完成")').click()
-        #         print("覆盖安装后启动")
-        #     except BaseException:
-        #         return False
-        #     return True
+        jo = self.judge_open()
+        if jo is True:
+            try:
+                driver.find_element_by_android_uiautomator('new UiSelector().text("打开")').click()
+                print("覆盖安装后启动")
+            except BaseException:
+                return False
+            return True
+        elif jo is False:
+            try:
+                driver.find_element_by_android_uiautomator('new UiSelector().text("完成")').click()
+                print("覆盖安装后启动")
+            except BaseException:
+                return False
+            return True
         # else:
         #     pass
 
@@ -159,6 +159,7 @@ class GetInfo(object):
             return a[0]
         except IndexError:
             print("无法获取应用启动activity！")
+            return False
 
     def get_pid(self, apkname):
         """获取传入的包名的PID"""
@@ -205,7 +206,7 @@ class Emails(object):
                 print("连接超时，4分钟后重试")
                 time.sleep(240)
         server.user(self.username)
-        server.pass_(self.password)
+        server.pass_("zmzmzm123")
         # 获得邮件
         first = len(server.list()[1])
         server.dele(first)
@@ -222,7 +223,6 @@ class Emails(object):
             except TimeoutError:
                 print("连接超时，5分钟后重试")
                 time.sleep(300)
-
         server.user(self.username)
         server.pass_(self.password)
         # 获得邮件
@@ -372,8 +372,8 @@ class FileOperate(object):
         m1 = self.get_file_md5(link_files_path + "lastfile.txt")
         m2 = self.get_file_md5(link_files_path + "prevercode.txt")
         if m1 != m2:
-            with open(link_files_path + 'backup.txt', 'a') as ff:
-                ff.write('\n')
+            # with open(link_files_path + 'backup.txt', 'a') as ff:
+            #     ff.write('\n')
             try:
                 for line in open(link_files_path + "prevercode.txt", encoding="utf-8"):
                     with open(link_files_path + 'backup.txt', 'a') as f:
@@ -412,6 +412,7 @@ class Judgement(object):
     def find_setting(self):
         try:
             driver.find_element_by_xpath("//*[@text='设置']").is_displayed()
+            print("检测到设置按钮")
             return False
         except:
             return True
@@ -446,12 +447,16 @@ class Judgement(object):
         err = 0
         print("截图中……")
         while i < 10:
+            # a = driver.page_source
             sc = self.__get_picture_path(apkname)
             driver.get_screenshot_as_file(sc)
             imf = compare_img.calc_similar_by_pathbai(sc)
-            white_list.append(round(imf, 4))
+            if imf >= 0.98:
+                white_list.append(round(imf, 4))
             imf2 = compare_img.calc_similar_by_pathhei(sc)
-            black_list.append(round(imf2, 4))
+            if imf2 >= 0.98:
+                # and 'clickable="true"' not in a:
+                black_list.append(round(imf2, 4))
             ishan = compare_img.calc_similar_by_pathshan(sc)
             err_list.append(round(ishan, 4))
             time.sleep(1)
@@ -465,13 +470,13 @@ class Judgement(object):
         print(err_list)
 
         for white in white_list:
-            if white > 0.98:
+            if white > 0.99:
                 w_err = w_err + 1
             else:
                 pass
 
         for black in black_list:
-            if black > 0.98:
+            if black > 0.99:
                 b_err = b_err + 1
             else:
                 pass
@@ -482,7 +487,7 @@ class Judgement(object):
             else:
                 pass
 
-        if w_err >= 9 or b_err >= 9:
+        if w_err >= 10 or b_err >= 10:
             b = apkname + "白屏时间过长或黑屏时间过长+" + sc
             print(b)
             emails.send_email(status + apkname + "白屏时间过长或黑屏时间过长", sc, dl_url[0])
@@ -493,7 +498,7 @@ class Judgement(object):
             print("白屏或黑屏应用已移至err_app文件夹")
             return False
 
-        if err >= 8 and self.find_setting() is False:
+        if err >= 10 and self.find_setting() is False:
             ss = apkname + "闪退了+" + sc
             print(ss)
             emails.send_email(status + apkname + "闪退了", sc, dl_url[0])
@@ -545,7 +550,7 @@ class MainTest(object):
                             pass
                         print(colored("未获取到新邮件，5分钟后重试", "red"))
                         time.sleep(300)
-                        # break
+                        # break  #break加或不加请随意，想一直跑下去就不加，如果想测试完毕且一直获取不到新邮件时就结束测试就加
 
     def file_name(self, file_dir):
         """获取路径下所有文件名"""
@@ -574,15 +579,15 @@ class MainTest(object):
                 os.popen("adb shell kill " + i[2])
 
     def launch_myapp(self, apk_name, apkpath):
-        judge = Judgement()
         getinfo = GetInfo()
         while 1:
-            driver.launch_app()
-            time.sleep(2)
-            fs = judge.find_setting()
-            if fs is False:
+            try:
+                driver.launch_app()
+                time.sleep(2)
+                break
+            except:
+                print("尝试appium重启失败")
                 os.popen("adb shell am start -n " + apk_name + "/" + getinfo.get_apk_activity(apkpath))
-            else:
                 break
 
     def get_install(self, url):
@@ -612,7 +617,10 @@ class MainTest(object):
             print(colored("未获取到包体大小"), "red")
         self.now_time()
         print("开始下载")
-        r = requests.get(dl_url)
+        try:
+            r = requests.get(dl_url)
+        except TimeoutError:
+            pass
 
         if r.status_code == 200:
             with open(apk_path, "wb") as code:
@@ -738,7 +746,7 @@ class MainTest(object):
                     else:
                         pass
                     fo.confirm_md5()
-                    time.sleep(20)
+                    time.sleep(40)
                     self.check_test()
                     break
                 else:
@@ -767,10 +775,21 @@ class MainTest(object):
             appium.appium_init(apkpath)
         except selenium.common.exceptions.WebDriverException:
             time.sleep(2)
+            getact = getinfo.get_apk_activity(apkpath)
+            if getact is False:
+                os.popen("adb uninstall " + apkname)
+                print(colored("该应用无法获取启动进程，跳过该应用！", "red"))
+                return
+            else:
+                pass
             self.now_time()
             judgement.judge_pic("安装后启动", v_apkname, dl_url[0])
             self.now_time()
             print(colored("应用异常，即将跳过当前应用测试下一应用……", "red"))
+            try:
+                os.popen("adb uninstall " + apkname)
+            except:
+                pass
             return
         time.sleep(6)
         self.now_time()
@@ -792,7 +811,7 @@ class MainTest(object):
                         return
                     else:
                         pass
-                    if times_flag % 2 == 0:
+                    if times_flag % 2 == 1:
                         self.now_time()
                         jde = judgement.judge_pic2("更新过程中", v_apkname, dl_url[0])
                         if jde is False:
@@ -859,10 +878,13 @@ class MainTest(object):
                                 self.now_time()
                                 print(colored("重启应用……", "blue"))
                                 self.launch_myapp(apk_name, apkpath)
-                                qq = judgement.judge_pic2("检测到downloadFinish值为true，杀进程之后", v_apkname, dl_url[0])
-                                if qq is False:
-                                    print("重启过程中发现异常")
+                                judgestart = judgement.find_setting()
+                                # qq = judgement.judge_pic2("检测到downloadFinish值为true，杀进程之后", v_apkname, dl_url[0])
+                                # if qq is False:
+                                if judgestart is False:
+                                    print("重启失败或重启后闪退")
                                     driver.remove_app(apk_name)
+                                    os.remove(apkpath)
                                     return
                                 self.now_time()
                                 print(colored("重启成功", "blue"))
@@ -870,6 +892,14 @@ class MainTest(object):
 
                     if reload_flag == 3:
                         print('重启3次未检测到内容，跳过该应用！')
+                        driver.close_app()
+                        time.sleep(1)  # 关闭app
+                        self.now_time()
+                        print("卸载APP")
+                        driver.remove_app(apk_name)  # 卸载app
+                        self.now_time()
+                        print("卸载完成")
+                        os.remove(apkpath)
                         return
                     appium.next_step()
                     appium.overlay()
@@ -990,7 +1020,13 @@ if __name__ == "__main__":
     # GetInfo().get_apk_activity(r"D:\TobTest\apk_dl\66881_59_1.1_com.live91y.tv.apk")
     # MainTest.hot_updata('E:\\TobTest\\apk_dl\\67380_11_1.1_com.xinlian.coinu.apk', "67380_11_1.1_com.xinlian.coinu.apk")
     # appium = AppiumInit()
-    # appium.appium_init(apk_dl_Path+'67062_7_2.1_com.yqlmx.yx.m4399.apk')
+    #
+    # appium.appium_init(err_apk_path+'67671_1_21.1_com.dianhun.remeberM3G.apk')
+    # time.sleep(5)
+    # a = driver.page_source
+    # if 'clickable="true"' not in a:
+    #     print("duoila")
+    # print(a)
     # appium.overlay_lauch()
     # appium.confirm_click()
     # driver.close_app()
